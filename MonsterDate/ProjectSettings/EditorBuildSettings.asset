@@ -11,10 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterSelection.unity
     guid: 9b6170a85ae060749867e2cdb2f845ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestDialogue.unity
     guid: 53b03f4b65d2c9d4298d51ed5155b49c
   - enabled: 1
     path: Assets/Scenes/MothmanDateStart.unity
     guid: 83575526164f91a4ba000f35d927ffd7
+  - enabled: 1
+    path: Assets/Scenes/BellatrixDateStart.unity
+    guid: d4daffe8602aa94438a8049eebc01df9
   m_configObjects: {}

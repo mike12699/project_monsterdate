@@ -12,6 +12,6 @@ public class SceneController : MonoBehaviour
 
     public void LoadAskariosDate()
     {
-        SceneManager.LoadScene("TestDialogue");
+        SceneManager.LoadScene("BellatrixDateStart");
     }
 }
