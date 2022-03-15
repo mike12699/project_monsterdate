@@ -140,11 +140,11 @@ MonoBehaviour:
   - color: 2
     sprite: {fileID: 21300000, guid: 9f2bcb1d153840844bfabdcfeb16c385, type: 3}
   - color: 3
-    sprite: {fileID: 21300000, guid: a1fb9ea3ce314f84da0951214908ccd0, type: 3}
+    sprite: {fileID: 21300000, guid: c8349ce84ed78dc438dcc9f313ad9671, type: 3}
   - color: 4
     sprite: {fileID: 21300000, guid: 20e1d9f1ca362ef43872a3c1e4deb8d4, type: 3}
   - color: 5
-    sprite: {fileID: 21300000, guid: e1cfc0c1ac367b441b3b4f98fc08f5dd, type: 3}
+    sprite: {fileID: 21300000, guid: 949cc56ec2724db40be02bf830aea99f, type: 3}
 --- !u!114 &7209193428417155590
 MonoBehaviour:
   m_ObjectHideFlags: 0
