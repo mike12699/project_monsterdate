@@ -14,4 +14,14 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("BellatrixDateStart");
     }
+
+    public void LoadAskariosMatch3()
+    {
+        SceneManager.LoadScene("BugGirlPuzzle");
+    }
+
+    public void LoadMothmanMatch3()
+    {
+        SceneManager.LoadScene("MothManPuzzle");
+    }
 }

@@ -56,7 +56,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios heads off to the cabana, where he nearly hits his head on the doorway.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY, IT SMELLS LIKE GLIMMERROOT IN HERE! THE HERBALISTS OF SKENTIRA USED TO SMOKE SUCH AS MUSCLE RELAXANTS IN MY TIME.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me know if you want some, maaan. Might make you understand me better.", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(First date... secured? Fuck if I know, honestly.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/(First date... secured? Fuck if I know, honestly.)", "Skully 2"));
 
         dialogueManager.Show(dialogueTexts);
     }

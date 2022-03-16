@@ -52,7 +52,7 @@ public class BellatrixDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS SO! BUT REGARDLESS, LET US SPEAK ON THANATOLOGY! FURTHER CONVERSATION IS LIKELY TO OCCUR AS WELL.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Fine by me!", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/NOW... /wait:0.5/TO A SEATING AREA!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/(Nice... /wait:0.5/first date secured! Don't fuck it up, boss.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/(Nice... /wait:0.5/first date secured! Don't fuck it up, boss.)", "Skully 2"));
 
         dialogueManager.Show(dialogueTexts);
     }
