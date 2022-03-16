@@ -60,8 +60,6 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: c8349ce84ed78dc438dcc9f313ad9671, type: 3}
   - color: 4
     sprite: {fileID: 21300000, guid: 20e1d9f1ca362ef43872a3c1e4deb8d4, type: 3}
-  - color: 5
-    sprite: {fileID: 21300000, guid: 949cc56ec2724db40be02bf830aea99f, type: 3}
 --- !u!114 &3159793031987718695
 MonoBehaviour:
   m_ObjectHideFlags: 0
