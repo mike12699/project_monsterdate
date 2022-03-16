@@ -27,7 +27,7 @@ public class Level : MonoBehaviour
 
     protected int currentScore;
 
-
+    protected bool didWin;
 
 
 
@@ -45,16 +45,20 @@ public class Level : MonoBehaviour
 
     public virtual void GameWin()
     {
-        Debug.Log("You win!");
-        hud.OnGameWin(currentScore);
+        //Debug.Log("You win!");
+        //hud.OnGameWin(currentScore);
         grid.GameOver();
+        didWin = true;
+        StartCoroutine(WaitForGridFill());
     }
 
     public virtual void GameLose()
     {
-        Debug.Log("You lose!");
-        hud.OnGameLose();
+        //Debug.Log("You lose!");
+        //hud.OnGameLose();
         grid.GameOver();
+        didWin = false;
+        StartCoroutine(WaitForGridFill());
     }
 
     public virtual void OnMove()
@@ -67,5 +71,19 @@ public class Level : MonoBehaviour
         currentScore += piece.score;
         hud.SetScore(currentScore);
     }
-
+    protected virtual IEnumerator WaitForGridFill()
+    {
+        while (grid.IsFilling)
+        {
+            yield return 0;
+        }
+        if (didWin)
+        {
+            hud.OnGameWin(currentScore);
+        }
+        else
+        {
+            hud.OnGameLose();
+        }
+    }
 }

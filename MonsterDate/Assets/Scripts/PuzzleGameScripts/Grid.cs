@@ -62,6 +62,13 @@ public class Grid : MonoBehaviour
 
     private bool gameOver = false;
 
+    private bool isFilling = false;
+
+    public bool IsFilling
+    {
+    get {return isFilling;}
+    }
+
 
     // Start is called before the first frame update
     void Awake()
@@ -122,6 +129,7 @@ public class Grid : MonoBehaviour
     public IEnumerator Fill()
     {
         bool needsRefill = true;
+        isFilling = true;
 
         while (needsRefill)
         {
@@ -138,6 +146,8 @@ public class Grid : MonoBehaviour
             inverse = !inverse;
             yield return new WaitForSeconds(fillTime);
         }
+
+        isFilling = false;
 
     }
     public bool FillStep()

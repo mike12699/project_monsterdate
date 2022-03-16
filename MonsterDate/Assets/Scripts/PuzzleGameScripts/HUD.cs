@@ -5,6 +5,7 @@ using UnityEngine;
 public class HUD : MonoBehaviour
 {
     public Level level;
+    public GameOver gameOver;
 
     public UnityEngine.UI.Text remainingText;
     public UnityEngine.UI.Text remainingSubtext;
@@ -14,7 +15,7 @@ public class HUD : MonoBehaviour
     public UnityEngine.UI.Image[] hearts;
 
     private int heartIdx = 0;
-    private bool isGameOver = false;
+    //private bool isGameOver = false;
 
 
     // Start is called before the first frame update
@@ -107,11 +108,13 @@ public class HUD : MonoBehaviour
 
     public void OnGameWin(int score)
     {
-        isGameOver = true;
+        gameOver.ShowWin(score, heartIdx);
+        //isGameOver = true;
     }
     public void OnGameLose()
     {
-        isGameOver = true;
+        gameOver.ShowLose();
+        //isGameOver = true;
     }
 
 
