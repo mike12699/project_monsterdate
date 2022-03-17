@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Doublsb.Dialog;
 
 public class BellatrixDateStart : MonoBehaviour
 {
     public DialogManager dialogueManager;
+
     private void Start()
     {
         var dialogueTexts = new List<DialogData>();
