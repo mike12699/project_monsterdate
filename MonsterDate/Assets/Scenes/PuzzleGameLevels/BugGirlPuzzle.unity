@@ -384,6 +384,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BugGirl
       objectReference: {fileID: 0}
+    - target: {fileID: 5505389019658080899, guid: e1dd9909855cfd34ca0b4c6ebfd09ed6, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75daf66b37f1df44082291a0dbb0728b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1dd9909855cfd34ca0b4c6ebfd09ed6, type: 3}
 --- !u!1 &1765427181
@@ -415,8 +419,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1219136cfcb8ad4ca66847b8261e65a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xDim: 10
-  yDim: 8
+  xDim: 8
+  yDim: 7
   fillTime: 0.1
   level: {fileID: 195118641}
   piecePrefabs:

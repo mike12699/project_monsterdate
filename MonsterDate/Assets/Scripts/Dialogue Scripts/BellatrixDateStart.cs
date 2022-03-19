@@ -31,14 +31,14 @@ public class BellatrixDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/I AM HERE ON NO TOUR!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Sure sounds like you're here for pleasure, though.", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ERM... PERHAPS SO, THEN!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/Cool! Got any questions?", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Cool! Got any questions?", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WHY DO YOU NOT FEAR MY STATUS -- MY NAME? IS IT OF NO IMPORTANCE TO YOU?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/...Not really! I'm just some girl in a band. I dunno about all that world history stuff.", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION! SHE IS AVOIDING MY QUESTION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss, we're on the other side of the planet.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/I can hear you, you know.", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Angry/I can hear you, you know.", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PRAY TELL, WHAT SORT OF MUSIC DO YOU PLAY? YOUR APPEARANCE SPEAKS... BARDIC!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/Oh! /wait:0.5/I'm the lead singer for a metal band called the Carrion Creepers.", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Oh! /wait:0.5/I'm the lead singer for a metal band called the Carrion Creepers.", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Well, that wasn't on the profile...)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I actually came here to get some inspo for a new song. I wanna call it 'The Death March'.", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I AM QUITE FAMILIAR WITH DEATH! IN FACT, I AM A MASTER OF NECROMANCY -- A LORD OF UNDEATH!", "Askarios"));
@@ -55,6 +55,7 @@ public class BellatrixDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Fine by me!", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/NOW... /wait:0.5/TO A SEATING AREA!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/(Nice... /wait:0.5/first date secured! Don't fuck it up, boss.)", "Skully 2"));
+        dialogueTexts.Add(new DialogData("", "Confirm"));
 
         dialogueManager.Show(dialogueTexts);
     }

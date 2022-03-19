@@ -28,10 +28,10 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/'Side from me, I can't say I know.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss... he WAS the profile.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS YOU ARE MY ELIGIBLE BACHELOR, THEN! PRAY, TELL ME THY NAME, O WISE STRANGER.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Name's Greg. Some people call me Mothman", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[He shrugs.]", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Name's Greg. Some people call me Mothman.", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[He shrugs]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Either's fine... Whatever you think fits the vibe.", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/GREGORY! YOU STAND IN THE PRESENCE OF ASKARIOS, LICH LORD OF SKENTIRA, TYRANT OF DEATH, AND EMPEROR OF ZYX.", "Askarrios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/GREGORY! YOU STAND IN THE PRESENCE OF ASKARIOS, LICH LORD OF SKENTIRA, TYRANT OF DEATH, AND EMPEROR OF ZYX.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Lotta titles there, maaan. Too much work for me.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Y' here on pleasure or somethin'?", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I AM COME TO THIS CITY IN SEARCH OF A PARAMOUR -- A LOVER TO SHARE IN MY RULE!", "Askarios"));
@@ -57,6 +57,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/MY, IT SMELLS LIKE GLIMMERROOT IN HERE! THE HERBALISTS OF SKENTIRA USED TO SMOKE SUCH AS MUSCLE RELAXANTS IN MY TIME.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me know if you want some, maaan. Might make you understand me better.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(First date... secured? Fuck if I know, honestly.)", "Skully 2"));
+        dialogueTexts.Add(new DialogData("", "Confirm"));
 
         dialogueManager.Show(dialogueTexts);
     }
