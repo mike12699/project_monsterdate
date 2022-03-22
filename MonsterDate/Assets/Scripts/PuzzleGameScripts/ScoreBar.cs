@@ -10,9 +10,9 @@ public class ScoreBar : MonoBehaviour
     public int current;
 
     public Image mask;
-
-
+    public HUD scoreSet;
     
+
 
 
 
@@ -29,11 +29,15 @@ public class ScoreBar : MonoBehaviour
         GetCurrentFill();
     }
 
-    void GetCurrentFill()
+    public void GetCurrentFill()
     {
+
+        //int current = scoreSet.scoreText.ToString;
+        
         float fillAmount = (float)current / (float)maximum;
 
         
+
 
         mask.fillAmount = fillAmount;
     }

@@ -13,7 +13,7 @@ public class HUD : MonoBehaviour
     public UnityEngine.UI.Text targetSubText;
     public UnityEngine.UI.Text scoreText;
     public UnityEngine.UI.Image[] hearts;
-
+    public ScoreBar bar;
     private int heartIdx = 0;
     //private bool isGameOver = false;
 
@@ -42,7 +42,13 @@ public class HUD : MonoBehaviour
 
     public void SetScore(int score)
     {
+        bar.current = score;
+
         scoreText.text = score.ToString();
+
+
+
+
 
         int visibleHeart = 0;
 

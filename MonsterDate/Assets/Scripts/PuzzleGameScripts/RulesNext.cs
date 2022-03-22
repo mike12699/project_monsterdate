@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameOver : MonoBehaviour
+public class RulesNext : MonoBehaviour
 {
     public GameObject screenParent;
     public GameObject scoreParent;
@@ -24,7 +24,7 @@ public class GameOver : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        screenParent.SetActive(false);
+        screenParent.SetActive(true);
 
         for (int i = 0; i < stars.Length; i++)
         {
@@ -35,7 +35,7 @@ public class GameOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void ShowLose()
@@ -68,7 +68,7 @@ public class GameOver : MonoBehaviour
             animator.Play("GameOverShow");
         }
 
-        StartCoroutine (ShowWinCoroutine (starCount));
+        StartCoroutine(ShowWinCoroutine(starCount));
     }
 
     private IEnumerator ShowWinCoroutine(int starCount)

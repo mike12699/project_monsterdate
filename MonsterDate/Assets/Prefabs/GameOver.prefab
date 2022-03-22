@@ -25,16 +25,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164837626}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 5.096275, y: 5.096275, z: 5.096275}
   m_Children: []
-  m_Father: {fileID: 2199321485741564987}
-  m_RootOrder: 8
+  m_Father: {fileID: 2199321485543621664}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1782, y: -1337}
+  m_AnchoredPosition: {x: 186.99988, y: -355.00006}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &164837629
@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Try Again?
+  m_Text: 'Date Fail...
 
 '
 --- !u!1 &2199321485309023169
@@ -268,6 +268,7 @@ MonoBehaviour:
   maximum: 1000
   current: 400
   mask: {fileID: 2199321486739641227}
+  scoreSet: {fileID: 0}
 --- !u!1 &2199321485383927791
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +642,7 @@ RectTransform:
   - {fileID: 2199321485741564987}
   - {fileID: 2199321486486751961}
   - {fileID: 2199321485445792303}
+  - {fileID: 164837627}
   m_Father: {fileID: 2199321485761911751}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -664,7 +666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2199321485741564987
 RectTransform:
   m_ObjectHideFlags: 0
@@ -684,7 +686,6 @@ RectTransform:
   - {fileID: 2199321486679716776}
   - {fileID: 2199321487042223323}
   - {fileID: 2199321485355880298}
-  - {fileID: 164837627}
   m_Father: {fileID: 2199321485543621664}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
