@@ -19,6 +19,10 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("BugGirlPuzzle");
     }
+    public void LoadRules()
+    {
+        SceneManager.LoadScene("RuleScreen");
+    }
 
     public void LoadMothmanMatch3()
     {
