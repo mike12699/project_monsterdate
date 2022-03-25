@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/DatingGameScenes/MothmanDateStart.unity
     guid: 83575526164f91a4ba000f35d927ffd7
   - enabled: 1
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PuzzleGameLevels/level1.unity
     guid: 82d119cc6bc59754dac972bed1da0b05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DatingGameScenes/TitleScreen.unity
     guid: 0a6cba1cf573d27439b42c5cd23b6bf3
   - enabled: 1
