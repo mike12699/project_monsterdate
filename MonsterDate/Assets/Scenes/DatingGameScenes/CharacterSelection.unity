@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 507198178}
   - component: {fileID: 507198177}
   m_Layer: 5
-  m_Name: Askarios Panel
+  m_Name: Bellatrix Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -803,7 +803,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: -74.4492}
+  m_AnchoredPosition: {x: -293, y: -41}
   m_SizeDelta: {x: 651.9, y: 632.8985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &550204205
@@ -828,7 +828,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 36
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -839,9 +839,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Bellatrix \u2014 screamo band enthusiast, performer, and lover of all
-    things dark and depressing. Don't let her exterior confuse you \u2014 she's a
-    bit of a freak on the down-low."
+  m_Text: "Name: Bellatrix Mnemos\r\n\r\nUsername: xX_G0th_BuG_Xx\r\n\r\nPronouns:
+    She/Her\r\n\r\nBlood Type: AB\r\n\r\nZodiac: Aquarius/Aries\r\n\r\nSkully\u2019s
+    Thoughts: Bellatrix \u2014 screamo enthusiast, airheaded mantis lady, and lover
+    of succulents. Don\u2019t let her thrift shop grandma clothes fool you (she calls
+    it \u201Ccottagecore\u201D), she\u2019s a bit of a freak on the downlow. I think
+    there\u2019s some common ground between you two, given that you two both like
+    dark, evil, and dead things, but ya just gotta not let yourself get misled by
+    appearances alone."
 --- !u!222 &550204206
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1232,7 +1237,7 @@ GameObject:
   - component: {fileID: 884244768}
   - component: {fileID: 884244767}
   m_Layer: 5
-  m_Name: Askarios
+  m_Name: Bellatrix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2366,7 +2371,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293, y: -74.4492}
+  m_AnchoredPosition: {x: -293, y: -41}
   m_SizeDelta: {x: 651.9, y: 632.8985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2141610571
@@ -2391,7 +2396,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 36
+    m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2402,9 +2407,13 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '"Greg" Mothman, boss. Looks like he''s on vacation, and that means it''s
-    perfect time for some honeymoon-esque lovin''! He''s a bit of a chill guy, so
-    he''d vibe with your... personality.'
+  m_Text: "Name: Greg \"Mothman Mothman\n\nUsername: PointPleasantPeril\n\nPronouns:
+    He/Him\n\nBlood Type: Hemolymph\n\nZodiac: Sagittarius/Taurus\n\nSkully's Thoughts:
+    Greg\u2019s a bit of a chill guy, y\u2019know? Think we\u2019re catchin\u2019
+    him out on his vacation, and to me, that means you two could indulge in some
+    sweet, sweet, relaxin\u2019 love makin\u2019. \u2018Course, he\u2019s a bit...
+    out there, in terms of personality, but I think you two will get along, assuming
+    you can handle his laid-back demeanor and philosophical thoughts"
 --- !u!222 &2141610572
 CanvasRenderer:
   m_ObjectHideFlags: 0

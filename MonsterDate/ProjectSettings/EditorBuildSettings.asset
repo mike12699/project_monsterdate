@@ -5,34 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/IntroScene.unity
+    guid: e591489f33f93d04687a3a34a82ef8bd
   - enabled: 1
     path: Assets/Scenes/DatingGameScenes/CharacterSelection.unity
     guid: 9b6170a85ae060749867e2cdb2f845ff
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/BellatrixDateStart.unity
+    guid: d4daffe8602aa94438a8049eebc01df9
   - enabled: 1
     path: Assets/Scenes/DatingGameScenes/MothmanDateStart.unity
     guid: 83575526164f91a4ba000f35d927ffd7
   - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/BellatrixDateStart.unity
-    guid: d4daffe8602aa94438a8049eebc01df9
+    path: Assets/Scenes/PuzzleGameLevels/RuleScreen.unity
+    guid: 7373b8a4b32c76e46b52ca0de2e6e72e
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/BugGirlPuzzle.unity
+    guid: ea02f3965793f10418652fc48fc7c2f5
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/MothManPuzzle.unity
+    guid: 038824e2e5dc7c147aee34c479fff36b
   - enabled: 0
     path: Assets/Scenes/PuzzleGameLevels/level1.unity
     guid: 82d119cc6bc59754dac972bed1da0b05
   - enabled: 0
     path: Assets/Scenes/DatingGameScenes/TitleScreen.unity
     guid: 0a6cba1cf573d27439b42c5cd23b6bf3
-  - enabled: 1
-    path: Assets/Scenes/PuzzleGameLevels/BugGirlPuzzle.unity
-    guid: ea02f3965793f10418652fc48fc7c2f5
-  - enabled: 0
-    path: Assets/Scenes/PuzzleGameLevels/MothManPuzzle.unity
-    guid: 038824e2e5dc7c147aee34c479fff36b
-  - enabled: 1
-    path: Assets/Scenes/PuzzleGameLevels/RuleScreen.unity
-    guid: 7373b8a4b32c76e46b52ca0de2e6e72e
   m_configObjects: {}

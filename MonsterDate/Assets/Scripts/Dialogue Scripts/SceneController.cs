@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    public void LoadCharacterSelect()
+    {
+        SceneManager.LoadScene("CharacterSelection");
+    }
     public void LoadMothmanDate()
     {
         SceneManager.LoadScene("MothmanDateStart");
