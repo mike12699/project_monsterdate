@@ -5,10 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public void LoadCharacterSelect()
-    {
-        SceneManager.LoadScene("CharacterSelection");
-    }
     public void LoadMothmanDate()
     {
         SceneManager.LoadScene("MothmanDateStart");
@@ -18,18 +14,8 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("BellatrixDateStart");
     }
-
-    public void LoadAskariosMatch3()
-    {
-        SceneManager.LoadScene("BugGirlPuzzle");
-    }
     public void LoadRules()
     {
         SceneManager.LoadScene("RuleScreen");
-    }
-
-    public void LoadMothmanMatch3()
-    {
-        SceneManager.LoadScene("MothManPuzzle");
     }
 }

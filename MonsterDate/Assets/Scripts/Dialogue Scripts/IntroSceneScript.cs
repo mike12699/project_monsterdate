@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Doublsb.Dialog;
 
 public class IntroSceneScript : MonoBehaviour
@@ -58,9 +59,20 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss! Wait up!", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully floats in the direction of Askarios's pursuit.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(This is gonna be a loooooong day.)", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Alright, boss. Got a few profiles for ya to choose from. Doesn't matter which one you choose, ya just gotta pick who ya like. I conveniently laid 'em out for ya on this specially made user interface.", "Skully"));
-        dialogueTexts.Add(new DialogData("", "Confirm"));
+        var Confirm = new DialogData("/speed:0.03/Alright, boss. Got a few profiles for ya to choose from. Doesn't matter which one you choose, ya just gotta pick who ya like. I conveniently laid 'em out for ya on this specially made user interface.", "Skully");
+        Confirm.SelectList.Add("Confirm", "Proceed to character selection");
 
+        Confirm.Callback = () => LoadCharacterSelection();
+
+        dialogueTexts.Add(Confirm);
         dialogManager.Show(dialogueTexts);
+    }
+
+    private void LoadCharacterSelection()
+    {
+        if (dialogManager.Result == "Confirm")
+        {
+            SceneManager.LoadScene("CharacterSelection");
+        }
     }
 }
