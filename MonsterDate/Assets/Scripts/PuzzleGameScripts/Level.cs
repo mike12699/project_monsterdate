@@ -69,6 +69,17 @@ public class Level : MonoBehaviour
     public virtual void OnPieceCleared(GamePiece piece)
     {
         currentScore += piece.score;
+        
+        //These will add the "Like" and "Dislike" scores. 
+        //if (ColorPiece.ColorType.LIKE)
+        //{
+        //    currentScore += piece.likePoints;
+        //}
+        //if (ColorPiece.ColorType.DISLIKE)
+        //{
+        //    currentScore += piece.dislikePoints;
+        //}
+        
         hud.SetScore(currentScore);
     }
     protected virtual IEnumerator WaitForGridFill()

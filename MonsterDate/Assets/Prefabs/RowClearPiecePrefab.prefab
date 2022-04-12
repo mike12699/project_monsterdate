@@ -82,15 +82,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorSprites:
   - color: 0
-    sprite: {fileID: 21300000, guid: 694451e59433ce84d8593ab499b3007e, type: 3}
+    sprite: {fileID: 21300000, guid: 42952a1d5e3e09e42b7f7ef3f8eee946, type: 3}
   - color: 1
-    sprite: {fileID: 21300000, guid: 88a8202b6e1d21048b30c29f71992d02, type: 3}
+    sprite: {fileID: 21300000, guid: ba1fe34cc74e1714bb47430034d22207, type: 3}
   - color: 2
-    sprite: {fileID: 21300000, guid: 9f2bcb1d153840844bfabdcfeb16c385, type: 3}
+    sprite: {fileID: 21300000, guid: 8f24cbce8f23e314ab8638f9ec9ab7af, type: 3}
   - color: 3
-    sprite: {fileID: 21300000, guid: c8349ce84ed78dc438dcc9f313ad9671, type: 3}
+    sprite: {fileID: 21300000, guid: 26e6d559a312f294393783ebd9d99af2, type: 3}
   - color: 4
-    sprite: {fileID: 21300000, guid: 20e1d9f1ca362ef43872a3c1e4deb8d4, type: 3}
+    sprite: {fileID: 21300000, guid: f6d3d8c2c0ab86845bb04109e23ff45f, type: 3}
 --- !u!114 &3159793031987718695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,7 +103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 896430f0537da6b499b51583d0769ae7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 600
+  score: 400
+  likePoints: 200
+  dislikePoints: 100
 --- !u!114 &7545387182532729331
 MonoBehaviour:
   m_ObjectHideFlags: 0

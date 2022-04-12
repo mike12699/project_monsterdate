@@ -5,6 +5,8 @@ using UnityEngine;
 public class GamePiece : MonoBehaviour
 {
     public int score;
+    public int likePoints;
+    public int dislikePoints;
 
 
 

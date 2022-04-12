@@ -13,7 +13,9 @@ public class ColorPiece : MonoBehaviour
         GREEN,
         WHITE,
         ANY,
-        COUNT
+        COUNT,
+        LIKE,
+        DISLIKE
     };
 
     [System.Serializable]
