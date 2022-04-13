@@ -26,10 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/MothManPuzzle.unity
     guid: 038824e2e5dc7c147aee34c479fff36b
-  - enabled: 0
-    path: Assets/Scenes/PuzzleGameLevels/level1.unity
-    guid: 82d119cc6bc59754dac972bed1da0b05
-  - enabled: 0
-    path: Assets/Scenes/DatingGameScenes/TitleScreen.unity
-    guid: 0a6cba1cf573d27439b42c5cd23b6bf3
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/BellatrixBadDate.unity
+    guid: 6e53176afd9a43d4088bce2997a1f2f3
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/BellatrixGoodDate.unity
+    guid: 86b353fe5eb22f942ae6be34f6a95a14
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanBadDate.unity
+    guid: 7e4e41d47da0f534cba1b15af6c370ae
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanGoodDate.unity
+    guid: 951ab63f0f3f9224f888e703480599e3
   m_configObjects: {}

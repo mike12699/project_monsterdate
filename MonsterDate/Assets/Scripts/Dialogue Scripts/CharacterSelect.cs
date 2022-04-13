@@ -5,15 +5,18 @@ using UnityEngine;
 public class CharacterSelect : MonoBehaviour
 {
     public GameObject mothmanPanel;
-    public GameObject askariosPanel;
+    public GameObject bellatrixPanel;
+    public GameObject myraPanel;
     public bool MothmanisActive;
-    public bool AskariosisActive;
+    public bool BellatrixisActive;
+    public bool MyraisActive;
 
     public void TurnToMothman()
     {
         if (MothmanisActive == false)
         {
-            askariosPanel.transform.gameObject.SetActive(false);
+            bellatrixPanel.transform.gameObject.SetActive(false);
+            myraPanel.transform.gameObject.SetActive(false);
             mothmanPanel.transform.gameObject.SetActive(true);
         }
         else
@@ -22,16 +25,31 @@ public class CharacterSelect : MonoBehaviour
         }
     }
 
-    public void TurnToAskarios()
+    public void TurnToBellatrix()
     {
-        if (AskariosisActive == false)
+        if (BellatrixisActive == false)
         {
             mothmanPanel.transform.gameObject.SetActive(false);
-            askariosPanel.transform.gameObject.SetActive(true);
+            myraPanel.transform.gameObject.SetActive(false);
+            bellatrixPanel.transform.gameObject.SetActive(true);
         }
         else
         {
-            askariosPanel.transform.gameObject.SetActive(false);
+            bellatrixPanel.transform.gameObject.SetActive(false);
+        }
+    }
+
+    public void TurnToMyra()
+    {
+        if (MyraisActive == false)
+        {
+            mothmanPanel.transform.gameObject.SetActive(false);
+            bellatrixPanel.transform.gameObject.SetActive(false);
+            myraPanel.transform.gameObject.SetActive(true);
+        }
+        else
+        {
+            myraPanel.transform.gameObject.SetActive(false);
         }
     }
 }

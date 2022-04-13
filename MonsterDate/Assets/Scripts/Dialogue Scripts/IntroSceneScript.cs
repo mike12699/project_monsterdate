@@ -34,14 +34,15 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/WHAT, MINION?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/You, uh, may wanna turn the volume down just a teensy little bit. Unlike most of your subjects, they have ears.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/VOLUME? I SPEAK AT A TONE THAT COMMANDS ATTENTIONS AND DENOTES MY POWER.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Hells, this will be a disaster...) Alright, well, whatever you say.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/(Hells, this will be a disaster...)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Alright, well, whatever you say.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/THEN WHERE IS THIS... 'PALEON CITY'? TO WHICH PART OF MY DOMAIN ARE WE TO TRAVEL?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/It's... actually across the world from here, boss. Had to get you a glyph pattern for a teleportation circle.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SEE... PROVIDE ME WITH IT, AND WE SHALL HEAD THERE ON THE MORROW!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, yeah, here ya g—", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios slaps the paper out from Skully's jaws.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios slaps the paper out from Skully's hands.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/READY THYSELVES, DENIZENS OF PALEON CITY, FOR ASKARIOS THE TYRANT WILL SOON BE GRACING THY LANDS IN SEARCH OF LOVE!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully sighs]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/*sigh*", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Wish I had hands to slap myself with...)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I'm sure they'll love you, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Let's get this shit over with.)", "Skully"));
@@ -57,7 +58,7 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/THAT ONE TOUCHED MY CLOAK WITH ITS DISGUSTING, FLESHY APPENDAGES! I SHALL CUT THEM FROM THEIR JOINTS AS PUNISHMENT! COME BACK HERE, PEASANT!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios runs off to chase the individual responsible for dirtying his outfit.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss! Wait up!", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully floats in the direction of Askarios's pursuit.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully runs in the direction of Askarios's pursuit.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(This is gonna be a loooooong day.)", "Skully"));
         var Confirm = new DialogData("/speed:0.03/Alright, boss. Got a few profiles for ya to choose from. Doesn't matter which one you choose, ya just gotta pick who ya like. I conveniently laid 'em out for ya on this specially made user interface.", "Skully");
         Confirm.SelectList.Add("Confirm", "Proceed to character selection");

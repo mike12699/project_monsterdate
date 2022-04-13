@@ -90,13 +90,41 @@ public class GameOver : MonoBehaviour
         }
         scoreText.enabled = true;
     }
-    public void OnNextClicked()
+    public void OnBellatrixPassClicked()
     {
         //This will continue game. Connect this to each characters specific date. Scene transition to next part of date.
         //If next scene is frozen at start use "Time.timeScale = 1f;" at the end of this method.
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("BugGirlPuzzle");
-
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("BellatrixGoodDate");
+        }
     }
 
+    public void OnBellatrixFailClicked()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("BellatrixBadDate");
+        }
+    }
+
+    public void OnMothmanPassClicked()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MothmanGoodDate");
+        }
+    }
+
+    public void OnMothmanFailClicked()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MothmanBadDate");
+        }
+    }
 }

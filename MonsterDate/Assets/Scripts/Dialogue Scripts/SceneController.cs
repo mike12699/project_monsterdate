@@ -10,9 +10,14 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("MothmanDateStart");
     }
 
-    public void LoadAskariosDate()
+    public void LoadBellatrixDate()
     {
         SceneManager.LoadScene("BellatrixDateStart");
+    }
+
+    public void LoadMyraDate()
+    {
+        SceneManager.LoadScene("MyraDateStart");
     }
     public void LoadRules()
     {
