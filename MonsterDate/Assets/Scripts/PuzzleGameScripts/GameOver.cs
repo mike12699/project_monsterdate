@@ -110,6 +110,24 @@ public class GameOver : MonoBehaviour
         }
     }
 
+    public void OnBellatrixPassClickedPt2()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("BugGirlPuzzle");
+        }
+    }
+
+    public void OnBellatrixFailClickedPt2()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("BugGirlPuzzle");
+        }
+    }
+
     public void OnMothmanPassClicked()
     {
         if (winText.enabled == true && loseText.enabled == false)

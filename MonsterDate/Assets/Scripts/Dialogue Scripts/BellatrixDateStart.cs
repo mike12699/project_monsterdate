@@ -67,7 +67,7 @@ public class BellatrixDateStart : MonoBehaviour
     {
         if (dialogueManager.Result == "Confirm")
         {
-            SceneManager.LoadScene("BugGirlPuzzle");
+            SceneManager.LoadScene("RuleScreen");
         }
     }
 }

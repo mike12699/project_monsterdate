@@ -23,4 +23,9 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("RuleScreen");
     }
+
+    public void LoadBellatrixMatch3()
+    {
+        SceneManager.LoadScene("BugGirlPuzzle");
+    }
 }
