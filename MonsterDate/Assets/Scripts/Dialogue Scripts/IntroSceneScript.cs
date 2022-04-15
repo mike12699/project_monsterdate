@@ -28,7 +28,7 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Alright, alright, so... I set up the boss here with some dates. Far off place from here. Paleon City, it's called. TONS of bachelors, bachelorettes, and all the others in-between.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/YES, HE HAS FOUND MANY SUITABLE PARAMOURS FOR MY ROMANTIC ADVANCES.THEY SHALL QUIVER IN DELIGHT AT MY PRESENCE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/...", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/...Anyway, I found a few that may be compatible with his... personality.Seems some of 'em really like the whole 'intimidate, dominate, maim, and deceive' thing.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/...Anyway, I found a few that may be compatible with his... personality. Seems some of 'em really like the whole 'intimidate, dominate, maim, and deceive' thing.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERFECT! MY CHARMS SHALL APPLY TO THEM TO A GREAT DEGREE, THEN!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Though, uh... boss?", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WHAT, MINION?", "Askarios"));
@@ -39,40 +39,21 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/THEN WHERE IS THIS... 'PALEON CITY'? TO WHICH PART OF MY DOMAIN ARE WE TO TRAVEL?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/It's... actually across the world from here, boss. Had to get you a glyph pattern for a teleportation circle.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SEE... PROVIDE ME WITH IT, AND WE SHALL HEAD THERE ON THE MORROW!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, yeah, here ya g—", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, yeah, here ya g—/close/", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios slaps the paper out from Skully's hands.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/READY THYSELVES, DENIZENS OF PALEON CITY, FOR ASKARIOS THE TYRANT WILL SOON BE GRACING THY LANDS IN SEARCH OF LOVE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/*sigh*", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I'm sure they'll love you, boss.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Let's get this shit over with.)", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Here we are, boss!", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/BY THE HELLS, IT IS BRIGHT HERE!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/It's called the sun, boss. You just haven't seen it in centuries.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/CAN WE RID OURSELVES OF IT? IT IS MAKING MY BONES BLEACH!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/I don't think it happens that fast.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios is bumped into by someone, leaving a smear of ketchup on his cloak from a stray French fry.]", "NPC"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Move, jackass!", "NPC"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/WATCH THYSELF, KNAVE!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Psst... Hey, boss, ya might wanna keep it down. Don't wanna make a bad first impression on your future partners, eh?", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/THAT ONE TOUCHED MY CLOAK WITH ITS DISGUSTING, FLESHY APPENDAGES! I SHALL CUT THEM FROM THEIR JOINTS AS PUNISHMENT! COME BACK HERE, PEASANT!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios runs off to chase the individual responsible for dirtying his outfit.]", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Boss! Wait up!", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully runs in the direction of Askarios's pursuit.]", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(This is gonna be a loooooong day.)", "Skully"));
-        var Confirm = new DialogData("/speed:0.03/Alright, boss. Got a few profiles for ya to choose from. Doesn't matter which one you choose, ya just gotta pick who ya like. I conveniently laid 'em out for ya on this specially made user interface.", "Skully");
-        Confirm.SelectList.Add("Confirm", "Proceed to character selection");
+        var endText = new DialogData("/speed:0.03/(Let's get this shit over with.)", "Skully");
 
-        Confirm.Callback = () => LoadCharacterSelection();
-
-        dialogueTexts.Add(Confirm);
+        dialogueTexts.Add(endText);
         dialogManager.Show(dialogueTexts);
+
+        endText.Callback = () => LoadCharacterSelection();
     }
 
     private void LoadCharacterSelection()
     {
-        if (dialogManager.Result == "Confirm")
-        {
-            SceneManager.LoadScene("CharacterSelection");
-        }
+        SceneManager.LoadScene("IntroScenePt2");
     }
 }

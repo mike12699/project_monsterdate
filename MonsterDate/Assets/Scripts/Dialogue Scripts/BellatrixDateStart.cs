@@ -12,7 +12,7 @@ public class BellatrixDateStart : MonoBehaviour
     {
         var dialogueTexts = new List<DialogData>();
 
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked//sound:haha/A LICHYARD? MY, MY, THIS PARAMOUR-TO-BE HAS AN AFFINITY FOR THE UNDEAD, THEN?", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/A LICHYARD? MY, MY, THIS PARAMOUR-TO-BE HAS AN AFFINITY FOR THE UNDEAD, THEN?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, all I know is that they come here often.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS THEY ARE A LICH THEMSELVES! I WOULD SO ADORE TO SPOT ANOTHER OF MY KIND AND CRAFT.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/Eh... /wait:0.5/ya didn't look at the picture I gave you, huh, boss?", "Skully"));
@@ -51,8 +51,8 @@ public class BellatrixDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Oooooh... /wait:0.5/So you could help me out, then?! I wanna write some accurate lyrics, and looking at corpses only gets you so far.", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ARE THEY NOT BENEATH THE EARTH?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Not if you have ambition and a shovel.", "Bellatrix"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//sound:bella_awksilence/...", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/...", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:bella_awksilence//emote:Confused/...", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Disappointed/...", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/...", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Her eyes train on Askarios.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, grave robbing also wasn't on the profile...", "Skully"));
@@ -62,20 +62,16 @@ public class BellatrixDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Fine by me!", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/NOW... /wait:0.5/TO A SEATING AREA!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:bella_dirt-pairfootsteps-away/[The two head off towards a wrought iron bench that sits near the grave dirt mound.]", "Narrator"));
-        var Confirm = new DialogData("/speed:0.03//emote:Happy/(Nice... /wait:0.5/first date secured! Don't fuck it up, boss.)", "Skully");
-        Confirm.SelectList.Add("Confirm", "Proceed to minigame");
+        var endText = new DialogData("/speed:0.03//emote:Happy/(Nice... /wait:0.5/first date secured! Don't fuck it up, boss.)", "Skully");
 
-        Confirm.Callback = () => LoadBellatrixMatch3();
-
-        dialogueTexts.Add(Confirm);
+        dialogueTexts.Add(endText);
         dialogueManager.Show(dialogueTexts);
+
+        endText.Callback = () => LoadBellatrixMatch3();
     }
 
     private void LoadBellatrixMatch3()
     {
-        if (dialogueManager.Result == "Confirm")
-        {
-            SceneManager.LoadScene("RuleScreen");
-        }
+        SceneManager.LoadScene("RuleScreen");
     }
 }

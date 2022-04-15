@@ -158,7 +158,7 @@ MonoBehaviour:
   score2Star: 50000
   score3Star: 75000
   numMoves: 15
-  targetScore: 20000
+  targetScore: 15000
 --- !u!4 &195118642
 Transform:
   m_ObjectHideFlags: 0
@@ -887,7 +887,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 106208162, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: maximum
-      value: 20000
+      value: 15000
       objectReference: {fileID: 0}
     - target: {fileID: 106208162, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: updateScore
