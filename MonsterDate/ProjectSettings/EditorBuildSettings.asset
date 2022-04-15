@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/TitleScreen.unity
+    guid: 0a6cba1cf573d27439b42c5cd23b6bf3
+  - enabled: 1
     path: Assets/Scenes/DatingGameScenes/IntroScene.unity
     guid: e591489f33f93d04687a3a34a82ef8bd
   - enabled: 1

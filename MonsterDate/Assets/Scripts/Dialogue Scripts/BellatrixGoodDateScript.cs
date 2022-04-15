@@ -19,7 +19,7 @@ public class BellatrixGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS SO! WE SHALL SEEK HER MYRIAD GAZES ONCE MORE IN THE FUTURE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Hey, boss, think Bellatrix is out and about again. Looks like she's at the ice cream shop, hypin' herself up.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERFECT! WE SHALL ARRIVE THERE POSTHASTE, FOR I SHALL NOT SQUANDER THIS OPPORTUNITY!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios quickly dons his cloak, then rushes towards the hotel room's door.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_cloak/[Askarios quickly dons his cloak, then rushes towards the hotel room's door.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/LET US GO, MINION! FORWARD!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Right behind ya, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/IT HAS BEEN QUITE THE TIME SINCE I INDULGED IN THE SACCHARINE SWEETNESS OF ICED CREAM! SURELY THE CULTURE HAS NOT SHIFTED IN THE CENTURIES SINCE I WAS BUT A CHILD!"));
@@ -29,7 +29,7 @@ public class BellatrixGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Askarios?! Man, it's been a long week, huh?", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[From the counter approaches Bellatrix, holding a tall waffle cone with four rainbow-colored scoops precariously stacked atop it.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/How've you been? The tour going well? Must be pretty expensive to stay in Paleon City for this long.", "Bellatrix"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The sugar rush in her is palpable.]", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[The sugar rush in her is palpable.]", "NPC"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY 'TOUR' HAS PROCEEDED DELIGHTFULLY, BELLATRIX, FOR I HAVE MET THEE UPON IT! IT IS WITH GREAT FORTUNE THAT WE HAVE MET AGAIN ON THIS DAY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/[Bellatrix blinks at the compliment, then lightly blushes.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Glad to hear it, man! Glad to hear it.", "Bellatrix"));
@@ -51,7 +51,7 @@ public class BellatrixGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/A PLACE OF COMBATIVE ENTERTAINMENT? MY, I DID NOT THINK SUCH PERFORMANCES WOULD BRING FORTH GLADITORIAL COMBAT AS WELL!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Uh... Sure! Let's go with that! People do get pretty fucked up in there, so...", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Ooh, wait. Let me give you one of these, then!", "Bellatrix"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[She reaches into her pocket, then pulls out a lanyard with a pass hooked upon it, which she hands over to Askarios. On it, it reads 'Backstage VIP'.]", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:bella_pocketbadge/[She reaches into her pocket, then pulls out a lanyard with a pass hooked upon it, which she hands over to Askarios. On it, it reads 'Backstage VIP'.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Wear that to the show, and they'll let you in the back when everyone's done! There's usually a meet-and-greet after the show, so we can talk more there!", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/BUT WE HAVE ALREADY MET AND GREETED, NO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, yeah, but that's where people usually talk to the stars of the show. Might have some weirdos come in, so I think you could easily intimidate them away from me.", "Bellatrix"));
@@ -63,11 +63,11 @@ public class BellatrixGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Bellatrix nods, then looks at her phone to check the time.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I gotta go, but I'll see you there! Hope you enjoy yourself, man!", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SHALL VISIT THEE ANON! DO TAKE CARE IN THINE PERFORMANCE!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios waves to Bellatrix as she runs out of the store, scarfing down her unfinished ice cream along the way.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:bella_woodsteps_runaway/[Askarios waves to Bellatrix as she runs out of the store, scarfing down her unfinished ice cream along the way.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WELL, MINION, I DO SAY THAT MY SECOND DATE IS SECURED, NO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Surprisingly, yes. That looks to be the case, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ONWARD, THEN, MINION!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Without so much as thinking of buying any ice cream, Askarios leaves the store.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_woodsteps_away/[Without so much as thinking of buying any ice cream, Askarios leaves the store.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me... Get a smoothie. This shit's gonna give me a headache — I know it.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully turns to the employee, who has completely ignored everything that happened in the past few minutes.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Hey, boss man, gimme a Strawberry Storm. Put some of that caffeine shit in it too.", "Skully"));

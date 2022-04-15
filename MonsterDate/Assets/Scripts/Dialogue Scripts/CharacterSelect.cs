@@ -7,9 +7,11 @@ public class CharacterSelect : MonoBehaviour
     public GameObject mothmanPanel;
     public GameObject bellatrixPanel;
     public GameObject myraPanel;
+    
     public bool MothmanisActive;
     public bool BellatrixisActive;
     public bool MyraisActive;
+    
 
     public void TurnToMothman()
     {

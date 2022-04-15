@@ -43,7 +43,6 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios slaps the paper out from Skully's hands.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/READY THYSELVES, DENIZENS OF PALEON CITY, FOR ASKARIOS THE TYRANT WILL SOON BE GRACING THY LANDS IN SEARCH OF LOVE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/*sigh*", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Wish I had hands to slap myself with...)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I'm sure they'll love you, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Let's get this shit over with.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Here we are, boss!", "Skully"));
