@@ -15,6 +15,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("BellatrixDateStart");
     }
 
+    public void LoadEyevanDate()
+    {
+        SceneManager.LoadScene("EyevanDateStart");
+    }
+
     public void LoadMyraDate()
     {
         SceneManager.LoadScene("MyraDateStart");

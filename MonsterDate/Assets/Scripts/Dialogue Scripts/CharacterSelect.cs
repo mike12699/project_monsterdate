@@ -6,10 +6,12 @@ public class CharacterSelect : MonoBehaviour
 {
     public GameObject mothmanPanel;
     public GameObject bellatrixPanel;
+    public GameObject eyevanPanel;
     public GameObject myraPanel;
     
     public bool MothmanisActive;
     public bool BellatrixisActive;
+    public bool EyevanisActive;
     public bool MyraisActive;
     
 
@@ -18,6 +20,7 @@ public class CharacterSelect : MonoBehaviour
         if (MothmanisActive == false)
         {
             bellatrixPanel.transform.gameObject.SetActive(false);
+            eyevanPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(false);
             mothmanPanel.transform.gameObject.SetActive(true);
         }
@@ -32,6 +35,7 @@ public class CharacterSelect : MonoBehaviour
         if (BellatrixisActive == false)
         {
             mothmanPanel.transform.gameObject.SetActive(false);
+            eyevanPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(false);
             bellatrixPanel.transform.gameObject.SetActive(true);
         }
@@ -41,12 +45,28 @@ public class CharacterSelect : MonoBehaviour
         }
     }
 
+    public void TurnToEyevan()
+    {
+        if (EyevanisActive == false)
+        {
+            mothmanPanel.transform.gameObject.SetActive(false);
+            bellatrixPanel.transform.gameObject.SetActive(false);
+            myraPanel.transform.gameObject.SetActive(false);
+            eyevanPanel.transform.gameObject.SetActive(true);
+        }
+        else
+        {
+            eyevanPanel.transform.gameObject.SetActive(false);
+        }
+    }
+
     public void TurnToMyra()
     {
         if (MyraisActive == false)
         {
             mothmanPanel.transform.gameObject.SetActive(false);
             bellatrixPanel.transform.gameObject.SetActive(false);
+            eyevanPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(true);
         }
         else

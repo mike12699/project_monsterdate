@@ -145,4 +145,38 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("MothmanBadDate");
         }
     }
+
+    public void OnEyevanPassClicked()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("EyevanGoodDate");
+        }
+    }
+
+    public void OnEyevanFailClicked()
+    {
+        if (winText.enabled == false && loseText.enabled == true)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("EyevanBadDate");
+        }
+    }
+    public void OnEyevanPassClickedPt2()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("EyevanPuzzlePt2");
+        }
+    }
+    public void OnEyevanFailClickedPt2()
+    {
+        if (winText.enabled == false && loseText.enabled == true)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("EyevanPuzzlePt2");
+        }
+    }
 }

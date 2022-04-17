@@ -260,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
     - target: {fileID: 4094011683009168357, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 56
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4094011683184476936, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Name
@@ -731,7 +731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9772774f050449d4382177ccf76d876c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0408d425f0e8ec94984f1d888a5dda0e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1766,7 +1766,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2079883924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a5196c530e1047742962fa13bbf7094c, type: 3}
+  m_Script: {fileID: 11500000, guid: 000169030df73ee408f875f8e751a3ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 181983762}
