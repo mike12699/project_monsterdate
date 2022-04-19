@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class EyevanDatePt2 : MonoBehaviour
 {
     public DialogManager dialogueManager;
+
+    #region Character Dialogue
     void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -76,6 +78,7 @@ public class EyevanDatePt2 : MonoBehaviour
         dialogueTexts.Add(endText);
         dialogueManager.Show(dialogueTexts);
     }
+    #endregion
 
     void LoadEyevanMatch3Pt2()
     {

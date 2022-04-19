@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class IntroSceneScriptPt3 : MonoBehaviour
 {
     public DialogManager dialogueManager;
+
+    #region Character Dialogue
     void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -31,6 +33,8 @@ public class IntroSceneScriptPt3 : MonoBehaviour
         dialogueTexts.Add(endText);
         dialogueManager.Show(dialogueTexts);
     }
+    #endregion
+
     private void LoadCharacterSelection()
     {
         SceneManager.LoadScene("CharacterSelection");

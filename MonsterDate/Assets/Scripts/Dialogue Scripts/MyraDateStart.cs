@@ -8,6 +8,7 @@ public class MyraDateStart : MonoBehaviour
 {
     public DialogManager dialogueManager;
 
+    #region Character Dialogue
     void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -63,27 +64,25 @@ public class MyraDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[The employee side-eyes Askarios, then returns to working on his order.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/[Myra waves her arms in front of her, dismissing the thought.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/T-that w-won't be necessary, sorry!", "Myra"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Here you are, sir. Whatever you ordered.", "NPC"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The employee places an improvised, sundae-like mass upon the counter. It appears to be two scoops of rocky road ice cream with blackberries, fudge drizzle, and toffee precariously lodged upon the surface.]", "NPC"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Here you are, sir. Whatever you ordered.", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[The employee places an improvised, sundae-like mass upon the counter. It appears to be two scoops of rocky road ice cream with blackberries, fudge drizzle, and toffee precariously lodged upon the surface.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/SUCH A REGIONAL VARIATION! I SHALL JUDGE THINE CRAFT IN COMPARISON TO THAT OF SKENTIRA!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The employee shrugs.]", "NPC"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Whatever, sir. Enjoy.", "NPC"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[The employee shrugs.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Whatever, sir. Enjoy.", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MYRA! PERCHANCE WE SHALL INDULGE IN OUR DESSERTS YONDER? I DO BELIEVE A DISCUSSION OF ART AND OUR ACCOMPLISHMENTS IS IN ORDER!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/U-uhm... /wait:0.5/I guess. /wait:0.5/L-let's go...", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Myra slides over to a nearby table, rolling herself up to 'sit' upon the chair. Askarios follows, towering over her as he takes his own seat.]", "Myra"));
-        var Confirm = new DialogData("/speed:0.03/Uh... alright. Guess we can call that a date, huh? You do you, boss.", "Skully");
-        Confirm.SelectList.Add("Confirm", "Proceed to minigame");
+        var endText = new DialogData("/speed:0.03/Uh... alright. Guess we can call that a date, huh? You do you, boss.", "Skully");
 
-        Confirm.Callback = () => LoadMyraMatch3();
+        endText.Callback = () => LoadMyraMatch3();
 
+        dialogueTexts.Add(endText);
         dialogueManager.Show(dialogueTexts);
     }
+    #endregion
 
     void LoadMyraMatch3()
     {
-        if (dialogueManager.Result == "Confirm")
-        {
-            SceneManager.LoadScene("SlimeGirlPuzzle");
-        }
+        SceneManager.LoadScene("SlimeGirlPuzzle");
     }
 }

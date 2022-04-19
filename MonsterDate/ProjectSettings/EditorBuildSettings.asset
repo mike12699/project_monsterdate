@@ -51,6 +51,18 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/EyevanDatePt2.unity
     guid: 367775cb95216bd408ca8251e6610448
   - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MyraDateStart.unity
+    guid: 4e737eb0532f7324d94f61aeb0180b62
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MyraGoodDate.unity
+    guid: e1073d72fd286cc45bd7c45f32fd17a7
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MyraBadDate.unity
+    guid: 834e472c320a97a428c5d5921402255d
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MyraDatePt2.unity
+    guid: 59bc346d574e02947af79f2dc8bd64df
+  - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/RuleScreen.unity
     guid: 7373b8a4b32c76e46b52ca0de2e6e72e
   - enabled: 1
@@ -68,4 +80,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/EyevanPuzzlePt2.unity
     guid: a725b69d224f7cb48934f9abfd3573c9
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/SlimeGirlPuzzle.unity
+    guid: bb1682b25c22c7846a56c8eaeb07d834
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/SlimeGirlPuzzlePt2.unity
+    guid: 8ff6bd8b5cb951248b82a9f0d4ecd4fa
   m_configObjects: {}

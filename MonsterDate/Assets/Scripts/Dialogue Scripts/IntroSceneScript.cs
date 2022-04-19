@@ -8,6 +8,7 @@ public class IntroSceneScript : MonoBehaviour
 {
     public DialogManager dialogManager;
 
+    #region Character Dialogue
     private void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -51,6 +52,7 @@ public class IntroSceneScript : MonoBehaviour
 
         endText.Callback = () => LoadCharacterSelection();
     }
+    #endregion
 
     private void LoadCharacterSelection()
     {

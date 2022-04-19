@@ -8,6 +8,7 @@ public class BellatrixDateStart : MonoBehaviour
 {
     public DialogManager dialogueManager;
 
+    #region Character Dialogue
     private void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -69,6 +70,7 @@ public class BellatrixDateStart : MonoBehaviour
 
         endText.Callback = () => LoadBellatrixMatch3();
     }
+    #endregion
 
     private void LoadBellatrixMatch3()
     {

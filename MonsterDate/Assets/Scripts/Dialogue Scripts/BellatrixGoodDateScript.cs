@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class BellatrixGoodDateScript : MonoBehaviour
 {
     public DialogManager dialogueManager;
+
+    #region Character Dialogue
     void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -29,6 +31,7 @@ public class BellatrixGoodDateScript : MonoBehaviour
 
         endText.Callback = () => LoadBellatrixGoodDatePt2();
     }
+    #endregion
 
     void LoadBellatrixGoodDatePt2()
     {

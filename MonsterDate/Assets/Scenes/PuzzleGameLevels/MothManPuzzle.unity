@@ -223,11 +223,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   grid: {fileID: 1765427182}
   hud: {fileID: 5451261922683649504}
-  score1Star: 25000
+  score1Star: 15000
   score2Star: 50000
   score3Star: 75000
   numMoves: 15
-  targetScore: 20000
+  targetScore: 15000
 --- !u!4 &195118642
 Transform:
   m_ObjectHideFlags: 0
@@ -682,8 +682,12 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 106208162, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: maximum
-      value: 20000
+      value: 15000
       objectReference: {fileID: 0}
+    - target: {fileID: 1602755894, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 5451261922235650055, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

@@ -8,6 +8,7 @@ public class MothmanDateStartScript : MonoBehaviour
 {
     public DialogManager dialogueManager;
 
+    #region Character Dialogue
     private void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -65,6 +66,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(Confirm);
         dialogueManager.Show(dialogueTexts);
     }
+    #endregion
 
     private void LoadMothmanMatch3()
     {

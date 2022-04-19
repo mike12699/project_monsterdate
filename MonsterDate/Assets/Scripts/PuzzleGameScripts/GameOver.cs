@@ -179,4 +179,36 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("EyevanPuzzlePt2");
         }
     }
+    public void OnMyraPassClicked()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MyraGoodDate");
+        }
+    }
+    public void OnMyraFailClicked()
+    {
+        if (winText.enabled == false && loseText.enabled == true)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MyraBadDate");
+        }
+    }
+    public void OnMyraPassClickedPt2()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SlimeGirlPuzzlePt2");
+        }
+    }
+    public void OnMyraFailClickedPt2()
+    {
+        if (winText.enabled == false && loseText.enabled == true)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SlimeGirlPuzzlePt2");
+        }
+    }
 }
