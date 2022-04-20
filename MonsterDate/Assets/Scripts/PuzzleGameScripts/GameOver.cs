@@ -90,6 +90,8 @@ public class GameOver : MonoBehaviour
         }
         scoreText.enabled = true;
     }
+
+    #region Bellatrix Match 3
     public void OnBellatrixPassClicked()
     {
         //This will continue game. Connect this to each characters specific date. Scene transition to next part of date.
@@ -127,7 +129,9 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("BugGirlPuzzle");
         }
     }
+    #endregion
 
+    #region Mothman Match 3
     public void OnMothmanPassClicked()
     {
         if (winText.enabled == true && loseText.enabled == false)
@@ -163,7 +167,9 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("MothManPuzzlePt2");
         }
     }
+    #endregion
 
+    #region Eyevan Match 3
     public void OnEyevanPassClicked()
     {
         if (winText.enabled == true && loseText.enabled == false)
@@ -197,6 +203,9 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("EyevanPuzzlePt2");
         }
     }
+    #endregion
+
+    #region Myra Match 3
     public void OnMyraPassClicked()
     {
         if (winText.enabled == true && loseText.enabled == false)
@@ -229,4 +238,25 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("SlimeGirlPuzzlePt2");
         }
     }
+    #endregion
+
+    #region Skully Match 3
+    public void OnSkullyPassClicked()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SkullyPuzzle");
+        }
+    }
+
+    public void OnSkullyFailClicked()
+    {
+        if (winText.enabled == false && loseText.enabled == true)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SkullyPuzzle");
+        }
+    }
+    #endregion
 }

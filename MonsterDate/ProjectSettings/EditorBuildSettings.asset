@@ -92,4 +92,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/SlimeGirlPuzzlePt2.unity
     guid: 8ff6bd8b5cb951248b82a9f0d4ecd4fa
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyDateStart.unity
+    guid: 53dc6907e950c53469b05ac1777678db
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyDateStartPt2.unity
+    guid: 335ca58796f3f8a428f1a9994b86fb49
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/SkullyPuzzle.unity
+    guid: ac98db520a76e3c4d8b03ff673f1153e
   m_configObjects: {}
