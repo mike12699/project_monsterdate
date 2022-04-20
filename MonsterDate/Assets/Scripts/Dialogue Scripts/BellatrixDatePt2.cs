@@ -4,9 +4,11 @@ using UnityEngine;
 using Doublsb.Dialog;
 using UnityEngine.SceneManagement;
 
-public class BellatrixBadDateScriptPt2 : MonoBehaviour
+public class BellatrixDatePt2 : MonoBehaviour
 {
     public DialogManager dialogueManager;
+
+    #region Character Dialogue
     void Start()
     {
         var dialogueTexts = new List<DialogData>();
@@ -19,7 +21,7 @@ public class BellatrixBadDateScriptPt2 : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Askarios?! Man, it's been a long week, huh?", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[From the counter approaches Bellatrix, holding a tall waffle cone with four rainbow-colored scoops precariously stacked atop it.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/How've you been? The tour going well? Must be pretty expensive to stay in Paleon City for this long.", "Bellatrix"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The sugar rush in her is palpable.]", "Bellatrix"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[The sugar rush in her is palpable.]", "NPC"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY 'TOUR' HAS PROCEEDED DELIGHTFULLY, BELLATRIX, FOR I HAVE MET THEE UPON IT! IT IS WITH GREAT FORTUNE THAT WE HAVE MET AGAIN ON THIS DAY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/[Bellatrix blinks at the compliment, then lightly blushes.]", "Bellatrix"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Glad to hear it, man! Glad to hear it.", "Bellatrix"));
@@ -68,6 +70,7 @@ public class BellatrixBadDateScriptPt2 : MonoBehaviour
 
         endText.Callback = () => LoadBellatrixMatch3Pt2();
     }
+    #endregion
 
     void LoadBellatrixMatch3Pt2()
     {

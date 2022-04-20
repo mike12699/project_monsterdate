@@ -8,11 +8,13 @@ public class CharacterSelect : MonoBehaviour
     public GameObject bellatrixPanel;
     public GameObject eyevanPanel;
     public GameObject myraPanel;
+    public GameObject skullyPanel;
     
     public bool MothmanisActive;
     public bool BellatrixisActive;
     public bool EyevanisActive;
     public bool MyraisActive;
+    public bool SkullyisActive;
     
 
     public void TurnToMothman()
@@ -22,6 +24,7 @@ public class CharacterSelect : MonoBehaviour
             bellatrixPanel.transform.gameObject.SetActive(false);
             eyevanPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(false);
+            skullyPanel.transform.gameObject.SetActive(false);
             mothmanPanel.transform.gameObject.SetActive(true);
         }
         else
@@ -37,6 +40,7 @@ public class CharacterSelect : MonoBehaviour
             mothmanPanel.transform.gameObject.SetActive(false);
             eyevanPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(false);
+            skullyPanel.transform.gameObject.SetActive(false);
             bellatrixPanel.transform.gameObject.SetActive(true);
         }
         else
@@ -52,6 +56,7 @@ public class CharacterSelect : MonoBehaviour
             mothmanPanel.transform.gameObject.SetActive(false);
             bellatrixPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(false);
+            skullyPanel.transform.gameObject.SetActive(false);
             eyevanPanel.transform.gameObject.SetActive(true);
         }
         else
@@ -67,11 +72,27 @@ public class CharacterSelect : MonoBehaviour
             mothmanPanel.transform.gameObject.SetActive(false);
             bellatrixPanel.transform.gameObject.SetActive(false);
             eyevanPanel.transform.gameObject.SetActive(false);
+            skullyPanel.transform.gameObject.SetActive(false);
             myraPanel.transform.gameObject.SetActive(true);
         }
         else
         {
             myraPanel.transform.gameObject.SetActive(false);
+        }
+    }
+    public void TurnToSkully()
+    {
+        if (SkullyisActive == false)
+        {
+            mothmanPanel.transform.gameObject.SetActive(false);
+            bellatrixPanel.transform.gameObject.SetActive(false);
+            eyevanPanel.transform.gameObject.SetActive(false);
+            myraPanel.transform.gameObject.SetActive(false);
+            skullyPanel.transform.gameObject.SetActive(true);
+        }
+        else
+        {
+            skullyPanel.transform.gameObject.SetActive(false);
         }
     }
 }

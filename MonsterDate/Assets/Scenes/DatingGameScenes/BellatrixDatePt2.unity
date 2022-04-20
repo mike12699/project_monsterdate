@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2079883924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a4507e2d64a2494d8981c288440e74e, type: 3}
+  m_Script: {fileID: 11500000, guid: 25ca3a721d6fd8c41897d1690bbef6b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 181983762}

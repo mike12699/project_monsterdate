@@ -27,14 +27,11 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/BellatrixGoodDate.unity
     guid: 1f1cc0c62a8975548815f82004822cfc
   - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/BellatrixGoodDatePt2.unity
-    guid: 5eefc0c7bff5e1644a35e29d3b556929
-  - enabled: 1
     path: Assets/Scenes/DatingGameScenes/BellatrixBadDate.unity
     guid: a1a21202902fd154babb9719bc2cd0a5
   - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/BellatrixBadDatePt2.unity
-    guid: 298acdb88fc56c64794c77006d195e9e
+    path: Assets/Scenes/DatingGameScenes/BellatrixDatePt2.unity
+    guid: e17769c6822f76c45a9c2283c6664cf4
   - enabled: 1
     path: Assets/Scenes/DatingGameScenes/MothmanDateStart.unity
     guid: 83575526164f91a4ba000f35d927ffd7

@@ -13,7 +13,7 @@ public class IntroSceneScriptPt3 : MonoBehaviour
     {
         var dialogueTexts = new List<DialogData>();
 
-        dialogueTexts.Add(new DialogData("/speed:0.03/BY THE HELLS, IT IS BRIGHT HERE!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/BY THE HELLS, IT IS BRIGHT HERE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/It's called the sun, boss. You just haven't seen it in centuries.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/CAN WE RID OURSELVES OF IT? IT IS MAKING MY BONES BLEACH!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I don't think it happens that fast.", "Skully"));
