@@ -39,6 +39,12 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/MothmanDateStart.unity
     guid: 83575526164f91a4ba000f35d927ffd7
   - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanGoodDate.unity
+    guid: 0518126b2d7adb642a9d00309a551658
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanBadDate.unity
+    guid: 8bddaf81cda1875479d9b469115f32bf
+  - enabled: 1
     path: Assets/Scenes/DatingGameScenes/EyevanDateStart.unity
     guid: d5e527d84ddb3b44791faec6a1143bdb
   - enabled: 1
@@ -74,6 +80,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/MothManPuzzle.unity
     guid: 038824e2e5dc7c147aee34c479fff36b
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/MothManPuzzlePt2.unity
+    guid: d06e8bb93b7c1d64693b5e61ff1d4e18
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/EyevanPuzzle.unity
     guid: 579eb914a64bcf04bad6fb66344c6572

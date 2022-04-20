@@ -146,6 +146,24 @@ public class GameOver : MonoBehaviour
         }
     }
 
+    public void OnMothmanPassClickedPt2()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MothManPuzzlePt2");
+        }
+    }
+
+    public void OnMothmanFailClickedPt2()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MothManPuzzlePt2");
+        }
+    }
+
     public void OnEyevanPassClicked()
     {
         if (winText.enabled == true && loseText.enabled == false)
