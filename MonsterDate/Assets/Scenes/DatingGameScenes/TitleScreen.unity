@@ -422,8 +422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32, y: -299}
-  m_SizeDelta: {x: 743.3434, y: 173.8631}
+  m_AnchoredPosition: {x: 0.000020981, y: -333}
+  m_SizeDelta: {x: 801.2607, y: 173.8631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1145543357
 MonoBehaviour:
@@ -458,7 +458,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Hot Liches Near You
+  m_Text: Hot Liches in Your Area
 --- !u!222 &1145543358
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -657,8 +657,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 28, y: -172}
-  m_SizeDelta: {x: 279.9315, y: 65.4343}
+  m_AnchoredPosition: {x: 0, y: -160}
+  m_SizeDelta: {x: 279.9315, y: 83.8089}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2006453126
 MonoBehaviour:

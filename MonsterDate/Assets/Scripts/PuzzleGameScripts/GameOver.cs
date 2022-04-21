@@ -246,7 +246,7 @@ public class GameOver : MonoBehaviour
         if (winText.enabled == true && loseText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("SkullyPuzzle");
+            SceneManager.LoadScene("SkullyGoodDate");
         }
     }
 
@@ -255,7 +255,25 @@ public class GameOver : MonoBehaviour
         if (winText.enabled == false && loseText.enabled == true)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("SkullyPuzzle");
+            SceneManager.LoadScene("SkullyBadDate");
+        }
+    }
+
+    public void OnSkullyPassClickedPt2()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SkullyPuzzlePt2");
+        }
+    }
+
+    public void OnSkullyFailClickedPt2()
+    {
+        if (winText.enabled == false && loseText.enabled == true)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SkullyPuzzlePt2");
         }
     }
     #endregion

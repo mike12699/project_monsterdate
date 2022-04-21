@@ -99,6 +99,18 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/SkullyDateStartPt2.unity
     guid: 335ca58796f3f8a428f1a9994b86fb49
   - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyGoodDate.unity
+    guid: ce4a15f9f488a954ba73cc9d9087f3fc
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyBadDate.unity
+    guid: 693a5d976d6101f46b1a8030d077d5f0
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyDateEnd.unity
+    guid: 58704637bd15f534ba1fb1899686a042
+  - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/SkullyPuzzle.unity
     guid: ac98db520a76e3c4d8b03ff673f1153e
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/SkullyPuzzlePt2.unity
+    guid: 721455ee0309afd45a0011bc0802121b
   m_configObjects: {}

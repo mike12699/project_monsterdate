@@ -24,6 +24,12 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("MyraDateStart");
     }
+
+    public void LoadSkullyDate()
+    {
+        SceneManager.LoadScene("SkullyDateStart");
+    }
+
     public void LoadRules()
     {
         SceneManager.LoadScene("RuleScreen");
