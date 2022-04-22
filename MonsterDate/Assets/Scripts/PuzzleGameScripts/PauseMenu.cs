@@ -48,7 +48,7 @@ public class PauseMenu : MonoBehaviour
         //Time.timeScale must be set back to 1f or it will still be paused on Title Screen. 
         //If using this method anywhare else, REMEMBER THIS!!
         Time.timeScale = 1f;
-        SceneManager.LoadScene("TitleScreen");
+        SceneManager.LoadScene("CharacterSelection");
 
         Debug.Log("This Goes to Main Menu.");
     }

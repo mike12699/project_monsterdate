@@ -70,7 +70,8 @@ public class SkullyDateEndScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Another minute of awkward silence follows, but Skully soon breaks it by bringing his gaze to Askarios once more.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Be honest, Askarios. Do you really WANT to be my partner?", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I've always felt like you've seen me as nothin' more than a servant, and it's hard to feel appreciated when you're just bein' ordered around and called by terms of suboordination.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/TO THE DEEPEST RECESSES OF MY BLACKENED SOUL, SKULLY, I AM HONEST WITH THEE. YOU HAVE A WISE SPIRIT WITHIN YOUR HANDSOME SHELL, AND I BELIEVE OUR COMPATIBILITY TO BE GREATER THAN THAT OF MOST OTHER PARAMOURS UPON THIS WORLD'S SOIL.", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/TO THE DEEPEST RECESSES OF MY BLACKENED SOUL, SKULLY, I AM HONEST WITH THEE.", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/YOU HAVE A WISE SPIRIT WITHIN YOUR HANDSOME SHELL, AND I BELIEVE OUR COMPATIBILITY TO BE GREATER THAN THAT OF MOST OTHER PARAMOURS UPON THIS WORLD'S SOIL.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/BUT PERCHANCE WE SHOULD... BEGIN OUR RELATIONSHIP ANEW, THEN, NO? I WOULD NOT PRESUME THAT CONTINUATION UPON OUR CURRENT PATH WOULD LEAD TO PROPER ROMANCE OR LOVE.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully wipes his lack of tears away from his face and unfurls his body, bringing himself back to Askarios's side.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, let's... just start over, Askarios. It's... probably for the best, honestly.", "Skully"));

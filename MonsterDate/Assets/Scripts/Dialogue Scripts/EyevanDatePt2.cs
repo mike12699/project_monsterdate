@@ -18,7 +18,8 @@ public class EyevanDatePt2 : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/[Askarios, without asking, starts invading peoples' space, looking for the man.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/HELLS, THERE ART MANY OF THEE OUT ON THIS EVE...", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss, ya shouldn't... /wait:0.5/Ah, forget it.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Right behind Askarios, staring straight at his back from a candlelit table, is Eyevan. His gaze is blank, tinged with annoyance. While he watches the lich struggle, he snacks on what appears to be fresh bruschetta, coupled with a cocktail.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[Right behind Askarios, staring straight at his back from a candlelit table, is Eyevan. His gaze is blank, tinged with annoyance.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[While he watches the lich struggle, he snacks on what appears to be fresh bruschetta, coupled with a cocktail.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Eventually, Askarios turns a 180 with a flourish, then stares down the man.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AH! THERE THOU ART!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Evening.", "Eyevan"));
@@ -46,7 +47,8 @@ public class EyevanDatePt2 : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[The waitress blinks, then writes down 'steak, well done' on her pad. Afterwards, she leaves.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/So, what's it like being a ruler and all that? I'm sure you have plenty of money and power.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AH, IT IS A POSITION OF PLEASURE! TO DOMINATE SO EASILY BRINGS SUCH ECSTASY, AND THE WEALTH IN MINE COFFERS IS BOUNDLESS!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/IN MINE YOUTH, WHEN I WAS A MERE APPRENTICE OF MAGICKS, I COULDST NOT IMAGINE MINESELF IN SUCH A POSITION! TO HAVE COMMANDED THE DEAD, RAISED SOULS FROM THE BEYOND, AND REAPED THE REWARDS OF CONQUEST — SUCH THINGS CANNOT BE EXPLAINED WITH MERE WORDS!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/IN MINE YOUTH, WHEN I WAS A MERE APPRENTICE OF MAGICKS, I COULDST NOT IMAGINE MINESELF IN SUCH A POSITION!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/TO HAVE COMMANDED THE DEAD, RAISED SOULS FROM THE BEYOND, AND REAPED THE REWARDS OF CONQUEST — SUCH THINGS CANNOT BE EXPLAINED WITH MERE WORDS!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Eyevan smirks.]", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/And... /wait:0.5/you don't have someone sharing in that with you?", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/NO! 'TIS WHY I TRAVELLED TO THIS CITY, SEARCHING FOR LOVE!", "Askarios"));
@@ -71,7 +73,8 @@ public class EyevanDatePt2 : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/(Ya know, I'm not even gonna stop this from happening. If the boss wants to get used, he can get used. It ain't my business at this rate.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios clears his throat, preparing for a speech.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/IN THE BEGINNING OF DEATH, THERE IS BUT A SOUL BOUND TO A VESSEL OF FLESH...", "Askarios"));
-        var endText = new DialogData("/speed:0.03/[In the coming hour, Askarios begins to explain the concepts of necromancy in great detail. At times, he draws some concerned glances from the nearby patrons of the restaurant, but Eyevan is intrigued... whether he genuinely cares or not.]", "Narrator");
+        dialogueTexts.Add(new DialogData("/speed:0.03/[In the coming hour, Askarios begins to explain the concepts of necromancy in great detail.]", "Narrator"));
+        var endText = new DialogData("/speed:0.03/[At times, he draws some concerned glances from the nearby patrons of the restaurant, but Eyevan is intrigued... whether he genuinely cares or not.]", "Narrator");
 
         endText.Callback = () => LoadEyevanMatch3Pt2();
 

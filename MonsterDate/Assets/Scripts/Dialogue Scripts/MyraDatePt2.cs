@@ -53,7 +53,8 @@ public class MyraDatePt2 : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me guess — I'll have to be your editor.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/THOU ART WISE, MINION! THOU ART WISE...", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ONWARD, THEN!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios makes his way after Myra, who moves at an incredibly slow pace, almost like a slug. In his wake, countless people from the crowd let out screams as they slip and slide into one another — the slime trail being the perpetrator.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios makes his way after Myra, who moves at an incredibly slow pace, almost like a slug.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[In his wake, countless people from the crowd let out screams as they slip and slide into one another — the slime trail being the perpetrator.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully sighs.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Onward, woo...", "Skully"));
         var endText = new DialogData("/speed:0.03/[He pumps his fist in a lazy, train conductor-like fashion, then hunches his shoulders forward as he slowly follows after the two, each of his steps touched with exhaustion and irritation.]", "Skully");

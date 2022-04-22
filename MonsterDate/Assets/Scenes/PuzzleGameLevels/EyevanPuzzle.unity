@@ -846,7 +846,19 @@ PrefabInstance:
       objectReference: {fileID: 5451261922683649504}
     - target: {fileID: 414183106, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 414183106, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 98.052
+      objectReference: {fileID: 0}
+    - target: {fileID: 414183106, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.97397
+      objectReference: {fileID: 0}
+    - target: {fileID: 414183107, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1602755894, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_Sprite
