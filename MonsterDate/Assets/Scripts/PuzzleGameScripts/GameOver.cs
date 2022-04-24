@@ -126,7 +126,7 @@ public class GameOver : MonoBehaviour
         if (loseText.enabled == true && winText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("BugGirlPuzzle");
+            SceneManager.LoadScene("BellatrixBadEpilogue");
         }
     }
     #endregion

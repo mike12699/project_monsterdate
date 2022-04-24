@@ -252,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 55032ee68f7dd5e4eadb7879c77fd938, type: 3}
     - target: {fileID: 4094011681938070631, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Color.a
-      value: 1
+      value: 0.80784315
       objectReference: {fileID: 0}
     - target: {fileID: 4094011681938070648, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_RootOrder
@@ -832,7 +832,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 088f2e127dc76e24b9a6779a3191b570, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e23c1561bf4cf0c419f5caba150777cf, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1710,7 +1710,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2079883924}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 25ca3a721d6fd8c41897d1690bbef6b8, type: 3}
+  m_Script: {fileID: 11500000, guid: 0713fbd849b7ee64c907b1374bab2efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueManager: {fileID: 181983762}
