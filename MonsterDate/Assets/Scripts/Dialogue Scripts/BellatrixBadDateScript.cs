@@ -15,7 +15,7 @@ public class BellatrixBadDateScript : MonoBehaviour
         BadDateStart();
     }
 
-    #region DialogueStart
+    #region Dialogue Start
     public void BadDateStart()
     {
         hotel.SetActive(true);
