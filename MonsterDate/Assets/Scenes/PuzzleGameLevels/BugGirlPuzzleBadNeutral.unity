@@ -157,7 +157,7 @@ MonoBehaviour:
   score1Star: 20000
   score2Star: 50000
   score3Star: 75000
-  numMoves: 2
+  numMoves: 15
   targetScore: 20000
 --- !u!4 &195118642
 Transform:
@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -978,11 +978,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnBellatrixFailClickedPt2
+      value: BellatrixBadNeutralPass
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: OnBellatrixFailClicked
+      value: BellatrixBadNeutralFail
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName

@@ -112,16 +112,34 @@ public class GameOver : MonoBehaviour
         }
     }
 
-    public void OnBellatrixPassClickedPt2()
+    public void BellatrixGoodNeutralPass()
     {
         if (winText.enabled == true && loseText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("BugGirlPuzzle");
+            SceneManager.LoadScene("BellatrixGoodEpilogue");
         }
     }
 
-    public void OnBellatrixFailClickedPt2()
+    public void BellatrixGoodNeutralFail()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("BellatrixNeutralEpilogue");
+        }
+    }
+
+    public void BellatrixBadNeutralPass()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("BellatrixNeutralEpilogue");
+        }
+    }
+
+    public void BellatrixBadNeutralFail()
     {
         if (loseText.enabled == true && winText.enabled == false)
         {
@@ -150,21 +168,39 @@ public class GameOver : MonoBehaviour
         }
     }
 
-    public void OnMothmanPassClickedPt2()
+    public void MothmanGoodNeutralPass()
     {
         if (winText.enabled == true && loseText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("MothManPuzzlePt2");
+            SceneManager.LoadScene("MothmanGoodEpilogue");
         }
     }
 
-    public void OnMothmanFailClickedPt2()
+    public void MothmanGoodNeutralFail()
     {
         if (loseText.enabled == true && winText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("MothManPuzzlePt2");
+            SceneManager.LoadScene("MothmanNeutralEpilogue");
+        }
+    }
+
+    public void MothmanBadNeutralPass()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MothmanNeutralEpilogue");
+        }
+    }
+
+    public void MothmanBadNeutralFail()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MothmanBadEpilogue");
         }
     }
     #endregion
@@ -187,20 +223,40 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("EyevanBadDate");
         }
     }
-    public void OnEyevanPassClickedPt2()
+
+    public void EyevanGoodNeutralPass()
     {
         if (winText.enabled == true && loseText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("EyevanPuzzlePt2");
+            SceneManager.LoadScene("EyevanGoodEpilogue");
         }
     }
-    public void OnEyevanFailClickedPt2()
+
+    public void EyevanGoodNeutralFail()
     {
-        if (winText.enabled == false && loseText.enabled == true)
+        if (loseText.enabled == true && winText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("EyevanPuzzlePt2");
+            SceneManager.LoadScene("EyevanNeutralEpilogue");
+        }
+    }
+
+    public void EyevanBadNeutralPass()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("EyevanNeutralEpilogue");
+        }
+    }
+
+    public void EyevanBadNeutralFail()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("EyevanBadEpilogue");
         }
     }
     #endregion
@@ -222,20 +278,39 @@ public class GameOver : MonoBehaviour
             SceneManager.LoadScene("MyraBadDate");
         }
     }
-    public void OnMyraPassClickedPt2()
+    public void MyraGoodNeutralPass()
     {
         if (winText.enabled == true && loseText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("SlimeGirlPuzzlePt2");
+            SceneManager.LoadScene("MyraGoodEpilogue");
         }
     }
-    public void OnMyraFailClickedPt2()
+
+    public void MyraGoodNeutralFail()
     {
-        if (winText.enabled == false && loseText.enabled == true)
+        if (loseText.enabled == true && winText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("SlimeGirlPuzzlePt2");
+            SceneManager.LoadScene("MyraNeutralEpilogue");
+        }
+    }
+
+    public void MyraBadNeutralPass()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MyraNeutralEpilogue");
+        }
+    }
+
+    public void MyraBadNeutralFail()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("MyraBadEpilogue");
         }
     }
     #endregion
@@ -259,21 +334,39 @@ public class GameOver : MonoBehaviour
         }
     }
 
-    public void OnSkullyPassClickedPt2()
+    public void SkullyGoodNeutralPass()
     {
         if (winText.enabled == true && loseText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("SkullyPuzzlePt2");
+            SceneManager.LoadScene("SkullyGoodEpilogue");
         }
     }
 
-    public void OnSkullyFailClickedPt2()
+    public void SkullyGoodNeutralFail()
     {
-        if (winText.enabled == false && loseText.enabled == true)
+        if (loseText.enabled == true && winText.enabled == false)
         {
             Time.timeScale = 1f;
-            SceneManager.LoadScene("SkullyPuzzlePt2");
+            SceneManager.LoadScene("SkullyNeutralEpilogue");
+        }
+    }
+
+    public void SkullyBadNeutralPass()
+    {
+        if (winText.enabled == true && loseText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SkullyNeutralEpilogue");
+        }
+    }
+
+    public void SkullyBadNeutralFail()
+    {
+        if (loseText.enabled == true && winText.enabled == false)
+        {
+            Time.timeScale = 1f;
+            SceneManager.LoadScene("SkullyBadEpilogue");
         }
     }
     #endregion

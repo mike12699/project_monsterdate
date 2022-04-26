@@ -958,7 +958,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -967,7 +967,7 @@ PrefabInstance:
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1914602130}
+      objectReference: {fileID: 2102618678}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -978,15 +978,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: RestartGame
+      value: BellatrixGoodNeutralPass
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: OnBellatrixFailClicked
+      value: BellatrixGoodNeutralFail
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PauseMenu, Assembly-CSharp
+      value: GameOver, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5451261923342735613, guid: 8fd54f261b9e3204f8aa8e3aa5dbbae1, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName

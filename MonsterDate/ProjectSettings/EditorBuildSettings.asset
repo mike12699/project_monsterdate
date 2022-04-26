@@ -12,12 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/IntroScene.unity
     guid: e591489f33f93d04687a3a34a82ef8bd
   - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/IntroScenePt2.unity
-    guid: 085ba963258aea24287c8302f53e017d
-  - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/IntroScenePt3.unity
-    guid: e15da93f60be04f45ad6970ab56d97fe
-  - enabled: 1
     path: Assets/Scenes/DatingGameScenes/CharacterSelection.unity
     guid: 9b6170a85ae060749867e2cdb2f845ff
   - enabled: 1
@@ -29,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DatingGameScenes/BellatrixBadDate.unity
     guid: a1a21202902fd154babb9719bc2cd0a5
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/BellatrixGoodEpilogue.unity
+    guid: 59c1cec6c639cf5419be2352fcbb2cf8
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/BellatrixNeutralEpilogue.unity
+    guid: f8d8c25b1c4deb1418c419bd3cdc0e60
   - enabled: 1
     path: Assets/Scenes/DatingGameScenes/BellatrixBadEpilogue.unity
     guid: e17769c6822f76c45a9c2283c6664cf4
@@ -42,6 +42,15 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/MothmanBadDate.unity
     guid: 8bddaf81cda1875479d9b469115f32bf
   - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanGoodEpilogue.unity
+    guid: ef9f1f1ffcfd22a4b93093886714ee44
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanNeutralEpilogue.unity
+    guid: fd204e25d1227114389e4f5cce23ce7b
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MothmanBadEpilogue.unity
+    guid: fc0f7c59c5e5cfa45af04286ee408421
+  - enabled: 1
     path: Assets/Scenes/DatingGameScenes/EyevanDateStart.unity
     guid: d5e527d84ddb3b44791faec6a1143bdb
   - enabled: 1
@@ -51,8 +60,14 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/EyevanBadDate.unity
     guid: 29c6d5cc33895254da0de4c07479f55e
   - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/EyevanDatePt2.unity
-    guid: 367775cb95216bd408ca8251e6610448
+    path: Assets/Scenes/DatingGameScenes/EyevanGoodEpilogue.unity
+    guid: 4efb823550402284c9da929c0307f46a
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/EyevanNeutralEpilogue.unity
+    guid: d2330b8242614b14eb94d781c132b8d9
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/EyevanBadEpilogue.unity
+    guid: 69ea8a7a2c75e2e42ab231971ae03d54
   - enabled: 1
     path: Assets/Scenes/DatingGameScenes/MyraDateStart.unity
     guid: 4e737eb0532f7324d94f61aeb0180b62
@@ -63,8 +78,32 @@ EditorBuildSettings:
     path: Assets/Scenes/DatingGameScenes/MyraBadDate.unity
     guid: 834e472c320a97a428c5d5921402255d
   - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/MyraDatePt2.unity
-    guid: 59bc346d574e02947af79f2dc8bd64df
+    path: Assets/Scenes/DatingGameScenes/MyraGoodEpilogue.unity
+    guid: b9cfa200233bcb147a8a9ee17fa9f924
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MyraNeutralEpilogue.unity
+    guid: b8fc24ade3b8c59418e5d08de82bb76a
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/MyraBadEpilogue.unity
+    guid: aa5962ea38ddf1443ba2c1d003fcd8cf
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyDateStart.unity
+    guid: 53dc6907e950c53469b05ac1777678db
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyGoodDate.unity
+    guid: ce4a15f9f488a954ba73cc9d9087f3fc
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyBadDate.unity
+    guid: 693a5d976d6101f46b1a8030d077d5f0
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyGoodEpilogue.unity
+    guid: dd41bc4ed16b048489500ead414f2883
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyNeutralEpilogue.unity
+    guid: ec9f6141447402a468da001b73f2022d
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/SkullyBadEpilogue.unity
+    guid: 1ad5ccd4016416440ad01ebc067cbee1
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/RuleScreen.unity
     guid: 7373b8a4b32c76e46b52ca0de2e6e72e
@@ -81,39 +120,36 @@ EditorBuildSettings:
     path: Assets/Scenes/PuzzleGameLevels/MothManPuzzle.unity
     guid: 038824e2e5dc7c147aee34c479fff36b
   - enabled: 1
-    path: Assets/Scenes/PuzzleGameLevels/MothManPuzzlePt2.unity
+    path: Assets/Scenes/PuzzleGameLevels/MothManGoodNeutralPuzzle.unity
+    guid: d3002013a17512f479d60d880989fecb
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/MothManBadNeutralPuzzle.unity
     guid: d06e8bb93b7c1d64693b5e61ff1d4e18
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/EyevanPuzzle.unity
     guid: 579eb914a64bcf04bad6fb66344c6572
   - enabled: 1
-    path: Assets/Scenes/PuzzleGameLevels/EyevanPuzzlePt2.unity
+    path: Assets/Scenes/PuzzleGameLevels/EyevanGoodNeutralPuzzle.unity
+    guid: 284fbb96fc6037d41a9c7ce122971f97
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/EyevanBadNeutralPuzzle.unity
     guid: a725b69d224f7cb48934f9abfd3573c9
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/SlimeGirlPuzzle.unity
     guid: bb1682b25c22c7846a56c8eaeb07d834
   - enabled: 1
-    path: Assets/Scenes/PuzzleGameLevels/SlimeGirlPuzzlePt2.unity
+    path: Assets/Scenes/PuzzleGameLevels/SlimeGirlGoodNeutralPuzzle.unity
+    guid: cdeced68eb4501e4e8d54bf99eac948c
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/SlimeGirlBadNeutralPuzzle.unity
     guid: 8ff6bd8b5cb951248b82a9f0d4ecd4fa
-  - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/SkullyDateStart.unity
-    guid: 53dc6907e950c53469b05ac1777678db
-  - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/SkullyDateStartPt2.unity
-    guid: 335ca58796f3f8a428f1a9994b86fb49
-  - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/SkullyGoodDate.unity
-    guid: ce4a15f9f488a954ba73cc9d9087f3fc
-  - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/SkullyBadDate.unity
-    guid: 693a5d976d6101f46b1a8030d077d5f0
-  - enabled: 1
-    path: Assets/Scenes/DatingGameScenes/SkullyDateEnd.unity
-    guid: 58704637bd15f534ba1fb1899686a042
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/SkullyPuzzle.unity
     guid: ac98db520a76e3c4d8b03ff673f1153e
   - enabled: 1
-    path: Assets/Scenes/PuzzleGameLevels/SkullyPuzzlePt2.unity
+    path: Assets/Scenes/PuzzleGameLevels/SkullyGoodNeutralPuzzle.unity
+    guid: d4d93b9e49bc8f947a44d1d2903c6bf2
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGameLevels/SkullyBadNeutralPuzzle.unity
     guid: 721455ee0309afd45a0011bc0802121b
   m_configObjects: {}
