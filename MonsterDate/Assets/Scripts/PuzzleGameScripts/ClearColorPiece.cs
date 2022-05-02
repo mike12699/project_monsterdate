@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ClearColorPiece : ClearablePiece
 {
+    //public AudioSource soundClear;
     private ColorPiece.ColorType color;
 
     public ColorPiece.ColorType Color
@@ -33,6 +34,7 @@ public class ClearColorPiece : ClearablePiece
 
     public override void Clear()
     {
+        //soundClear.Play();
         base.Clear();
 
         piece.GridRef.ClearColor(color);

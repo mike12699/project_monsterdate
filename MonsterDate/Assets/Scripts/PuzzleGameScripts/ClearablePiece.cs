@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class ClearablePiece : MonoBehaviour
 {
+    public AudioSource clearSound;
     public AnimationClip clearAnimation;
     //public AnimationClip happyDance;
+    private SoundManager soundManager;
 
     private bool isBeingCleared = false;
 
@@ -25,7 +27,7 @@ public class ClearablePiece : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        soundManager = FindObjectOfType<SoundManager>();
     }
 
     // Update is called once per frame
@@ -36,6 +38,11 @@ public class ClearablePiece : MonoBehaviour
 
     public virtual void Clear()
     {
+        if (soundManager != null)
+        {
+            soundManager.PlayRandomNoise();
+        }
+        clearSound.Play();
         piece.GridRef.level.OnPieceCleared(piece);
         isBeingCleared = true;
         StartCoroutine(ClearCoroutine());

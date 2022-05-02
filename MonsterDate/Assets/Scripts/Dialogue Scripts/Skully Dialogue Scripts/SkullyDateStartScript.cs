@@ -67,7 +67,7 @@ public class SkullyDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/SERVANT! A TABLE FOR MY MINION AND I!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[After a moment of waiting, Askarios and Skully are brought to a neatly set table, soon populated by a basket of complimentary bread and glasses of dark red wine.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Nice place, huh, boss? Looked like some fancy food, wine, that kinda shit.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/IT IS AESTHETICALLY PLEASING, MINION!LET US HOPE THAT ITS QUALITY SATISFIES MY PARTICULAR TASTES OF CUISINE!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/IT IS AESTHETICALLY PLEASING, MINION! LET US HOPE THAT ITS QUALITY SATISFIES MY PARTICULAR TASTES OF CUISINE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Do you... even have taste buds anymore?)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/You know, boss, you should probably call me by my name if we're going to be...", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[He pauses, then sighs once more.]", "Skully"));
