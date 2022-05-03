@@ -5,6 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    public void LoadTitleScreen()
+    {
+        SceneManager.LoadScene("TitleScreen");
+    }
+
+    public void LoadCharacterSelection()
+    {
+        SceneManager.LoadScene("CharacterSelection");
+    }
+
     public void LoadMothmanDate()
     {
         SceneManager.LoadScene("MothmanDateStart");

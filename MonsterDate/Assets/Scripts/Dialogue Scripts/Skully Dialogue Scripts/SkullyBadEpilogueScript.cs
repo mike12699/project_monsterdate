@@ -40,12 +40,12 @@ public class SkullyBadEpilogueScript : MonoBehaviour
         dialogueTexts.Add(endText);
         dialogueManager.Show(dialogueTexts);
 
-        endText.Callback = () => LoadCharacterSelection();
+        endText.Callback = () => LoadCredits();
     }
     #endregion
 
-    void LoadCharacterSelection()
+    void LoadCredits()
     {
-        SceneManager.LoadScene("CharacterSelection");
+        SceneManager.LoadScene("Credits");
     }
 }

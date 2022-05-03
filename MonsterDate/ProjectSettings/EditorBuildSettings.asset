@@ -152,4 +152,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/PuzzleGameLevels/SkullyBadNeutralPuzzle.unity
     guid: 721455ee0309afd45a0011bc0802121b
+  - enabled: 1
+    path: Assets/Scenes/DatingGameScenes/Credits.unity
+    guid: 568971d3ac2209c4abd38b1d6d858d46
   m_configObjects: {}
