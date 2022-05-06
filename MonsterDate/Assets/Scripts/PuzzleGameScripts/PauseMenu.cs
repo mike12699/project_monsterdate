@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+    public GameObject helpMenu;
 
 
 
@@ -62,11 +63,13 @@ public class PauseMenu : MonoBehaviour
     }
 
     
-    public void RestartGame()
+    public void ShowHelp()
     {
-        //Will Restart Current Scene.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
-        Time.timeScale = 1f;
+        helpMenu.SetActive(true);
+    }
 
+    public void CloseHelp()
+    {
+        helpMenu.SetActive(false);
     }
 }

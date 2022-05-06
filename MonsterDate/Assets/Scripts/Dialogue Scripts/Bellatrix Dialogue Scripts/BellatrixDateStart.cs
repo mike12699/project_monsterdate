@@ -74,6 +74,6 @@ public class BellatrixDateStart : MonoBehaviour
 
     private void LoadBellatrixMatch3()
     {
-        SceneManager.LoadScene("RuleScreen");
+        SceneManager.LoadScene("BugGirlPuzzle");
     }
 }
