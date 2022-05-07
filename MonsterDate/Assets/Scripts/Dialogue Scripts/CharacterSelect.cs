@@ -10,89 +10,48 @@ public class CharacterSelect : MonoBehaviour
     public GameObject myraPanel;
     public GameObject skullyPanel;
     
-    public bool MothmanisActive;
-    public bool BellatrixisActive;
-    public bool EyevanisActive;
-    public bool MyraisActive;
-    public bool SkullyisActive;
-    
 
-    public void TurnToMothman()
+    public void OpenMothman()
     {
-        if (MothmanisActive == false)
-        {
-            bellatrixPanel.transform.gameObject.SetActive(false);
-            eyevanPanel.transform.gameObject.SetActive(false);
-            myraPanel.transform.gameObject.SetActive(false);
-            skullyPanel.transform.gameObject.SetActive(false);
-            mothmanPanel.transform.gameObject.SetActive(true);
-        }
-        else
-        {
-            mothmanPanel.transform.gameObject.SetActive(false);
-        }
+        mothmanPanel.SetActive(true);
     }
 
-    public void TurnToBellatrix()
+    public void OpenBellatrix()
     {
-        if (BellatrixisActive == false)
-        {
-            mothmanPanel.transform.gameObject.SetActive(false);
-            eyevanPanel.transform.gameObject.SetActive(false);
-            myraPanel.transform.gameObject.SetActive(false);
-            skullyPanel.transform.gameObject.SetActive(false);
-            bellatrixPanel.transform.gameObject.SetActive(true);
-        }
-        else
-        {
-            bellatrixPanel.transform.gameObject.SetActive(false);
-        }
+        bellatrixPanel.SetActive(true);
     }
 
-    public void TurnToEyevan()
+    public void OpenEyevan()
     {
-        if (EyevanisActive == false)
-        {
-            mothmanPanel.transform.gameObject.SetActive(false);
-            bellatrixPanel.transform.gameObject.SetActive(false);
-            myraPanel.transform.gameObject.SetActive(false);
-            skullyPanel.transform.gameObject.SetActive(false);
-            eyevanPanel.transform.gameObject.SetActive(true);
-        }
-        else
-        {
-            eyevanPanel.transform.gameObject.SetActive(false);
-        }
+        eyevanPanel.SetActive(true);
     }
 
-    public void TurnToMyra()
+    public void OpenMyra()
     {
-        if (MyraisActive == false)
-        {
-            mothmanPanel.transform.gameObject.SetActive(false);
-            bellatrixPanel.transform.gameObject.SetActive(false);
-            eyevanPanel.transform.gameObject.SetActive(false);
-            skullyPanel.transform.gameObject.SetActive(false);
-            myraPanel.transform.gameObject.SetActive(true);
-        }
-        else
-        {
-            myraPanel.transform.gameObject.SetActive(false);
-        }
+        myraPanel.SetActive(true);
     }
-    public void TurnToSkully()
+    public void OpenSkully()
     {
-        if (SkullyisActive == false)
-        {
-            mothmanPanel.transform.gameObject.SetActive(false);
-            bellatrixPanel.transform.gameObject.SetActive(false);
-            eyevanPanel.transform.gameObject.SetActive(false);
-            myraPanel.transform.gameObject.SetActive(false);
-            skullyPanel.transform.gameObject.SetActive(true);
-        }
-        else
-        {
-            skullyPanel.transform.gameObject.SetActive(false);
-        }
+        skullyPanel.SetActive(true);
+    }
+    public void CloseMothman()
+    {
+        mothmanPanel.SetActive(false);
+    }
+    public void CloseBellatrix()
+    {
+        bellatrixPanel.SetActive(false);
+    }
+    public void CloseEyevan()
+    {
+        eyevanPanel.SetActive(false);
+    }
+    public void CloseMyra()
+    {
+        myraPanel.SetActive(false);
+    }
+    public void CloseSkully()
+    {
+        skullyPanel.SetActive(false);
     }
 }

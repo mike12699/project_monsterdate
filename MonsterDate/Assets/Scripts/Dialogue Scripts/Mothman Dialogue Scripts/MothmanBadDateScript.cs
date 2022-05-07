@@ -77,7 +77,7 @@ public class MothmanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[If he had the capacity to choke and gag, he would be coughing up a storm. Luckily, he doesn't have lungs, so that isn't the case.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Heh, yeah, maaan... I get it as pure as I can.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Greg leans back onto the bed, pressing his back against the mattress and gazing towards the ceiling, tracing out imaginary patterns on its distant painted surface with his finger.]", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Honestly, maaan... I ain't much of a ruler, but I do know how to make an omen+life balance... Might wanna start there, if I'm bein' real...", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Honestly, maaan... I ain't much of a ruler, but I do know how to make an omen or life balance... Might wanna start there, if I'm bein' real...", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios lays next to him, failing to envision whatever he's drawing in the air.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DO TELL MORE, GREGORY... MINE MIND HATH OPENED TO THE COSMOS... AND THEE AS WELL.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'Course, course... Let's start with talkin' about your stress and work load, then, maaan...", "Mothman"));

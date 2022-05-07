@@ -654,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5505389019658080898, guid: e1dd9909855cfd34ca0b4c6ebfd09ed6, type: 3}
       propertyPath: m_Name
-      value: BugGirl
+      value: Skully
       objectReference: {fileID: 0}
     - target: {fileID: 5505389019658080899, guid: e1dd9909855cfd34ca0b4c6ebfd09ed6, type: 3}
       propertyPath: m_Sprite
