@@ -687,6 +687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PAUSEMENU
       objectReference: {fileID: 0}
+    - target: {fileID: 7539721044616925612, guid: 72d323cf5f2b2554a9894b1961447593, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7539721044616925614, guid: 72d323cf5f2b2554a9894b1961447593, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
