@@ -28,7 +28,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Paramour? Like, someone single? Maaan, I ain't checkin' for other people's vibes and shit...", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[He sticks his proboscis into his martini, drawing out a long sip.]", "Mothamn"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'Side from me, I can't say I know.", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Boss... he WAS the profile.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss... he WAS the profile.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS YOU ARE MY ELIGIBLE BACHELOR, THEN! PRAY, TELL ME THY NAME, O WISE STRANGER.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Name's Greg. Some people call me Mothman.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[He shrugs]", "Mothman"));
@@ -44,7 +44,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/No scales off my skin, honestly. Less I gotta do, the better.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION, THIS ONE IS RATHER LAID BACK! ARE YOU SO SURE THAT HE IS A COMPATIBLE MATCH TO ONE OF MY STATURE", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'Course, boss. I put in all the work to ensure everyone's a match for you.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(I gotta throw out those extra ads later... and clear my call log.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/(I gotta throw out those extra ads later... and clear my call log.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Sounds like you're worryin' too much, maaan. You gotta learn to just let it all just be a vibe.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/SPEAK CLEARLY, GREGORY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Like, you gotta learn to go with what happens... Enjoy what comes in life, you know ? Think you're too caught up on makin' sure everything's perfect for you, maaan.", "Mothman"));
@@ -58,7 +58,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios heads off to the cabana, where he nearly hits his head on the doorway.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY, IT SMELLS LIKE GLIMMERROOT IN HERE! THE HERBALISTS OF SKENTIRA USED TO SMOKE SUCH AS MUSCLE RELAXANTS IN MY TIME.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me know if you want some, maaan. Might make you understand me better.", "Mothman"));
-        var endText = new DialogData("/speed:0.03/(First date... secured? Fuck if I know, honestly.)", "Skully");
+        var endText = new DialogData("/speed:0.03//emote:Thumbsup1/(First date... secured? Fuck if I know, honestly.)", "Skully");
 
         endText.Callback = () => LoadMothmanMatch3();
 

@@ -16,7 +16,7 @@ public class MothmanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION, IS IT AN EFFECT OF GLIMMERROOT TO SO QUICKLY FALL UNCONSCIOUS?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I mean... it looked to me like Greg just kinda passed out on you.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AND HE IS A REGULAR SMOKER! 'TIS A SHOCK THAT I, THE VERITABLE NOVICE, HAD RESISTED SUCH URGES SO!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Boss... I think he just got bored.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss... I think he just got bored.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WITH WHAT, MINION? OUR DISCUSSION WAS RATHER COMPELLING, NO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Compelling enough that he stopped listening, maybe.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I DO NOT INTEND TO BORE MY PARAMOURS! I HAD THOUGHT AN INTRICATE STATEMENT AS TO THE PHILOSOPHY BEHIND TORTURE, MAIMING, DISMEMBERMENT, AND MAGICKED UPHEAVAL WOULD BE RATHER ENTERTAINING TO ONE SUCH AS HE!", "Askarios"));
@@ -24,15 +24,15 @@ public class MothmanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/HMM. I SHALL NEEDS IMPROVE THE DEPTH OF MINE BELIEFS TO A UNIQUE DEGREE, THEN! PERCHANCE HE HAD HEARD IT ALL ALREADY FROM ANOTHER SOURCE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Or, you know... he might just not care. But I'll let you do you.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SHALT RUMINATE ON SUCH WHILE I CHANCE MINE OWN REST! I CAN FEEL THE VAPORS ENTERING MY MIND AND SUBDUING MY CENTERS OF LOGIC!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(...No comment.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(...No comment.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Two weeks later.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION! PERCHANCE WE SHALT SEEK OUT GREGORY ONCE MORE! I SEEK HIS INSIGHT ON A MATTER SPAWNED FROM MINE OWN GLIMMERROOT - LADEN REFLECTION THIS PAST FORTNIGHT!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Shit, not that...)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/(Shit, not that...)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, we could go look for him, if ya'd like. Pretty sure he left his location tracking on, so it wouldn't be too hard t—", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[There's a lazy knock at the door.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Heyyy, maaan... You in there?", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/DEAR ME, WHAT FORTUITOUS TIMING!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(How did he...)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(How did he...)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios runs over and throws the door open with far too much force, nearly breaking the hinge in the process.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[On the other side of the door is Greg Mothman, standing amidst a cloud of glimmerroot smoke. Just like last time the two met, he has a martini in his free hand, while his other holds a large, lit joint.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/GREGORY!", "Askarios"));
@@ -44,10 +44,10 @@ public class MothmanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/And, uh... how'd ya find this room? Not like we told ya where it was, Greg.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Oh... maaan, glimmerroot has some wacky effects, Bonesy. Shit made me feel like I had a connection with the big man here... and it kinda just guided me to him, like a call.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[He chuckles, then lazily gestures around, emphasizing his point, punctuated with a long sip of his martini.]", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Uh... my name's Skully.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Smile/Uh... my name's Skully.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Cool...", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully blinks.]", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Right.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Smile/[Skully blinks.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/Right.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Anyway, what'd you have to tell the boss?", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Greg furrows his brow, appearing confused.]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[After a moment of consideration, he perks up from the idea coming back to him, then gestures his joint towards Askarios, lightly tapping ashes onto the floor before taking an extended hit, which he exhales for just as long.]", "Mothman"));
@@ -81,8 +81,8 @@ public class MothmanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios lays next to him, failing to envision whatever he's drawing in the air.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DO TELL MORE, GREGORY... MINE MIND HATH OPENED TO THE COSMOS... AND THEE AS WELL.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'Course, course... Let's start with talkin' about your stress and work load, then, maaan...", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Hey, maybe Zyx will improve, huh? Eh...who am I kiddin', it's gonna get worse.)", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Probably much worse. Honestly, that's maybe for the best at this point.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/(Hey, maybe Zyx will improve, huh? /wait:0.5//emote:Sad/Eh...who am I kiddin', it's gonna get worse.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/(Probably much worse. Honestly, that's maybe for the best at this point.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[For what could be hours upon hours, Greg and Askarios appear to have their discussion, with Skully failing to follow for a vast majority of it.]", "Narrator"));
         var endText = new DialogData("/speed:0.03/[Multiple joints and martinis later, they both managed to pass out at similar time frames, slightly wrapped up in one another's arms. What information was garnered from that conversation is up to anyone's interpretation.]", "Narrator");
 

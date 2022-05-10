@@ -708,11 +708,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[6]
-      value: ThumbsUp1
+      value: Thumbsup1
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[7]
-      value: ThumbsUp2
+      value: Thumbsup2
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009709, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: m_Name

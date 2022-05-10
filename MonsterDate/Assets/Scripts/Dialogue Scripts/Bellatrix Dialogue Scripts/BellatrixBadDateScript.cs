@@ -27,8 +27,8 @@ public class BellatrixBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Eh... Boss, I think ya might've been boring her. You really sure she was lookin' at you? Compound eyes can be focused anywhere, not just on where it looks like she's lookin'.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WHAT SPOKE TO HER ALLEGED DISINTEREST? HER ATTENTION WAS TRAINED ON ME, AND SHE CONTINUALLY SMOOTHED HER CLOTHING TO BETTER HOLD HER APPEARANCE FOR MY GAZE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/That's... kinda somethin' people do when they don't wanna listen anymore, boss.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/OH.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/...", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/OH.", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/...", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WELL, I DO HOPE THAT I WAS NOT A BLIGHT UPON HER DAY, GIVEN THAT I WAS INFORMING HER OF QUITE A LOT OF PERSONALIZED INFORMATION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Guess we'll have to see when we see her next, huh? Don't think she hates ya, but ya might need to try a little harder next time to make her happy.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WE SHALL SEE IN THE FUTURE, THEN, MINION! I SHALL STUDY THE ART OF CONVERSATION ONCE MORE!", "Askarios"));
@@ -38,7 +38,7 @@ public class BellatrixBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/PERFECT! WE SHALL ARRIVE THERE POSTHASTE, FOR I SHALL NOT SQUANDER THIS OPPORTUNITY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_cloak/[Askarios quickly dons his cloak, then rushes towards the hotel room's door.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/LET US GO, MINION! FORWARD!", "Askarios"));
-        var endText = new DialogData("/speed:0.03/Right behind ya, boss.", "Skully");
+        var endText = new DialogData("/speed:0.03//emote:Thumbsup2/Right behind ya, boss.", "Skully");
 
         dialogueTexts.Add(endText);
         dialogueManager.Show(dialogueTexts);
@@ -99,11 +99,11 @@ public class BellatrixBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/I SHALL VISIT THEE ANON! DO TAKE CARE IN THINE PERFORMANCE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:bella_woodsteps_runaway/[Askarios waves to Bellatrix as she runs out of the store, scarfing down her unfinished ice cream along the way.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WELL, MINION, I DO SAY THAT MY SECOND DATE IS SECURED, NO?", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Surprisingly, yes. That looks to be the case, boss.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup2/Surprisingly, yes. That looks to be the case, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ONWARD, THEN, MINION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_woodsteps_away/[Without so much as thinking of buying any ice cream, Askarios leaves the store.]", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Let me... Get a smoothie. This shit's gonna give me a headache — I know it.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully turns to the employee, who has completely ignored everything that happened in the past few minutes.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/Let me... Get a smoothie. This shit's gonna give me a headache — I know it.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/[Skully turns to the employee, who has completely ignored everything that happened in the past few minutes.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Hey, boss man, gimme a Strawberry Storm. Put some of that caffeine shit in it too.", "Skully"));
         var endText = new DialogData("/speed:0.03/Sure thing, sir.", "NPC");
 

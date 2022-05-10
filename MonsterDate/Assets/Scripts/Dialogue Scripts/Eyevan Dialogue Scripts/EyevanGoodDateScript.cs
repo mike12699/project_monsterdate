@@ -30,7 +30,7 @@ public class EyevanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/NO! WAS HE SUPPOSED TO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/...Not at all, boss. I think your presence is pretty clearly laid out.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WELL, MY NAME POSSESSES MUCH RENOWN, YOU ARE AWARE! PERHAPS HE HAS HEARD OF ME IN HIS STUDIES!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/...Sure! Let's go with that.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/...Sure! Let's go with that.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I AWAIT OUR NEXT VENTURE, THAT WE MAY DISCUSS FURTHER TOPICS WITH HIS GREAT INSIGHT!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[A week and a half later, at dusk.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios's phone buzzes. Somehow, he figured out how to raise the power level of the vibration, and the bones near his pocket rattle in tandem with the device's notification.]", "Narrator"));
@@ -57,8 +57,8 @@ public class EyevanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed1/Don't take too long. I ain't got the money to pay for it myself.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[The phonecall ends with a beep.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION! RETRIEVE MINE COINPURSE — I POSSESS A NEWFOUND NEED FOR IT!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(You're really just lettin' him walk all over you, huh? Well, I ain't gonna stop 'im.)", "Skully"));
-        var endText = new DialogData("/speed:0.03/Right away, boss.", "Skully");
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(You're really just lettin' him walk all over you, huh? Well, I ain't gonna stop 'im.)", "Skully"));
+        var endText = new DialogData("/speed:0.03//emote:Thumbsup2/Right away, boss.", "Skully");
 
         endText.Callback = () => GoodDateContinue();
 
@@ -79,7 +79,7 @@ public class EyevanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/EYEVAN! PRAY, WHERE ART THOU?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/[Askarios, without asking, starts invading peoples' space, looking for the man.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/HELLS, THERE ART MANY OF THEE OUT ON THIS EVE...", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Boss, ya shouldn't... /wait:0.5/Ah, forget it.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss, ya shouldn't... /wait:0.5/Ah, forget it.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Right behind Askarios, staring straight at his back from a candlelit table, is Eyevan. His gaze is blank, tinged with annoyance.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[While he watches the lich struggle, he snacks on what appears to be fresh bruschetta, coupled with a cocktail.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Eventually, Askarios turns a 180 with a flourish, then stares down the man.]", "Askarios"));
@@ -103,7 +103,7 @@ public class EyevanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Closed/[Eyevan takes a long sip of his peach-colored drink.]", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, guess I was right. Pretty boring.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS TO AN OUTSIDER! FOR THOSE OF MINE HOMELAND AND MINE EMPIRE, THEY ART QUITE THE INTRIGUING SORT!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(You only say that because you're the subject.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(You only say that because you're the subject.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed1/[Eyevan shrugs, then hails over a waitress, whom he orders a hefty array of entrée's from — far too much for one person, no matter the size. He's absolutely banking on leftovers.]", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AH! SERVANT, FETCH ME YOUR FINEST WINE AND ANIMALIAN ENTRAILS, COOKED TO PERFECTION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[The waitress blinks, then writes down 'steak, well done' on her pad. Afterwards, she leaves.]", "Narrator"));
@@ -132,7 +132,7 @@ public class EyevanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[At this point, the waitress returns with Askarios's steak, cooked dark, and a multitude of platters for Eyevan, with each containing a completely different dish.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DELIGHTFUL! THEN LET US BEGIN!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, let's! I'll think about writing my two weeks', too...", "Eyevan"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Ya know, I'm not even gonna stop this from happening. If the boss wants to get used, he can get used. It ain't my business at this rate.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(Ya know, I'm not even gonna stop this from happening. If the boss wants to get used, he can get used. It ain't my business at this rate.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios clears his throat, preparing for a speech.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/IN THE BEGINNING OF DEATH, THERE IS BUT A SOUL BOUND TO A VESSEL OF FLESH...", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[In the coming hour, Askarios begins to explain the concepts of necromancy in great detail.]", "Narrator"));

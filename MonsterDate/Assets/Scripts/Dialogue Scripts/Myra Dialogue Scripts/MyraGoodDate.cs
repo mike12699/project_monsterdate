@@ -30,15 +30,15 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/I CAN ONLY ASSUME HER LINGERING GAZE UPON MY NETHERS DISPLAYED HER PIQUED ADORATION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Eh, I guess s— Wait, where was she lookin'?!", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/IN OUR PRIVATE MOMENTS, SHE ASKED I STRIP FOR THE BETTERMENT OF HER ARTWORK!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Oh...Well, alright.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Let me pray she was just tryin' to get the details right.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/Oh... Well, alright.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/(Let me pray she was just tryin' to get the details right.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/NEVERTHELESS, WE SHALL REST! THERE ARE STILL YET ROMANTIC PURSUITS TO...PURSUE!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Yeah...Leeeeeet's get on that, boss.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Don't think too hard about what she saw, don't think too hard about what she saw, don't—.)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/Yeah...Leeeeeet's get on that, boss.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/(Don't think too hard about what she saw, don't think too hard about what she saw, don't—.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Two weeks later.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios's date-seeking app buzzes with a series of notifications.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/GAH! MINION, THIS DEVICE IS...VIBRATING! PRAY, WHAT ELEMENTAL FORCE HATH POSSESSED IT?", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Boss, that's... Just open the fuckin' app.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss, that's... Just open the fuckin' app.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios blinks, then struggles to unlock the phone. The capacitive touch screen doesn't easily react to his bony fingers.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/DAMNED THING!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[After a few minutes of poorly-made attempts, some infused with minor cantrips and spells of ridiculous power, he eventually manages to get the app open.]", "Narrator"));
@@ -47,12 +47,12 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION! I BELIEVE ANOTHER PARAMOUR HAS CONTACTED ME!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss, that's...", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully pinches the bridge of where his nose used to be.]", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/That's Myra.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/That's Myra.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/SUCCESS, THEN! SHE HAS FOUND THE NEED TO DATE ME ONCE AGAIN!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let's not be hasty now, boss. She might just wanna meet up with ya.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ONWARD, MINION! TO THE MARKET!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully sighs.]", "Skully"));
-        var endText = new DialogData("/speed:0.03/Right... Let's go.", "Skully");
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/[Skully sighs.]", "Skully"));
+        var endText = new DialogData("/speed:0.03//emote:Annoyed/Right... Let's go.", "Skully");
 
         endText.Callback = () => GoodDateContinue();
 
@@ -72,7 +72,7 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/AH, SUCH MEMORIES OF THIS PLACE! 'TWAS HERE THAT WE FIRST ARRIVED IN THIS VERY CITY, NO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, like... /wait:0.5/the one time we came here... /wait:0.5/two weeks ago.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/SUCH BITTERSWEET MEMORIES, SO VERY LONG AGO! MY, HOW I DID NOT THINK TO GROW NOSTALGIC ALREADY.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/...", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/...", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/U-uhm, h-hey, Askarios!", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Sliding through the legs of the dense crowd is Myra.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/GOOD EVENING, MYRA! PRAY, DID THINE EXAMINATION PROCEED SMOOTHLY?", "Askarios"));
@@ -82,7 +82,7 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/CONGRATULATIONS, THEN, MYRA!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/WAIT... IS THAT A PLEASANT RESULT? I HAVE NOT PURSUED AN EDUCATION IN CENTURIES.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Oh, we know.)", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/T-that's... the best you can get, y-yeah.", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/T-that's... the best you can get, y-yeah.", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Myra pulls her hand nubs in and starts to wring them passively.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/S-sorry. I... don't like to b-boast.", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'TIS EXCITING, MYRA! PRAY, LET MINE COFFERS SPILL FOR THEE — WHAT SORT OF REWARD WOULDST THOU ENJOY?", "Askarios"));
@@ -105,15 +105,15 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/SEE, MINION! COINAGE CAN OFT RESULT IN THE BETTERMENT OF LOVE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/When was that an argument, boss?", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/...IT WAS NOT! BUT I SHALL DECLARE SUCH AN IMPORTANT POINT FOR MY INEVITABLE MEMOIR AND TOME OF ADVICE ON PARAMOURSHIP!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/(Sure that'll sell fantastically. Watch him title it 'Gettin' Boned!', ha! Wait, that'd be my joke...)", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Laugh/(Sure that'll sell fantastically. Watch him title it 'Gettin' Boned!', ha! Wait, that'd be my joke...)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me guess — I'll have to be your editor.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/THOU ART WISE, MINION! THOU ART WISE...", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ONWARD, THEN!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios makes his way after Myra, who moves at an incredibly slow pace, almost like a slug.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[In his wake, countless people from the crowd let out screams as they slip and slide into one another — the slime trail being the perpetrator.]", "Narrator"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Skully sighs.]", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Onward, woo...", "Skully"));
-        var endText = new DialogData("/speed:0.03/[He pumps his fist in a lazy, train conductor-like fashion, then hunches his shoulders forward as he slowly follows after the two, each of his steps touched with exhaustion and irritation.]", "Skully");
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/[Skully sighs.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Onward, woo...", "Skully"));
+        var endText = new DialogData("/speed:0.03//emote:Thumbsup1/[He pumps his fist in a lazy, train conductor-like fashion, then hunches his shoulders forward as he slowly follows after the two, each of his steps touched with exhaustion and irritation.]", "Skully");
 
         endText.Callback = () => LoadMyraMatch3Pt2();
 

@@ -72,7 +72,7 @@ public class MyraDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/MYRA! PERCHANCE WE SHALL INDULGE IN OUR DESSERTS YONDER? I DO BELIEVE A DISCUSSION OF ART AND OUR ACCOMPLISHMENTS IS IN ORDER!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/U-uhm... /wait:0.5/I guess. /wait:0.5/L-let's go...", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Myra slides over to a nearby table, rolling herself up to 'sit' upon the chair. Askarios follows, towering over her as he takes his own seat.]", "Myra"));
-        var endText = new DialogData("/speed:0.03/Uh... alright. Guess we can call that a date, huh? You do you, boss.", "Skully");
+        var endText = new DialogData("/speed:0.03//emote:Thumbsup1/Uh... alright. Guess we can call that a date, huh? You do you, boss.", "Skully");
 
         endText.Callback = () => LoadMyraMatch3();
 
