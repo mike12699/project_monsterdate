@@ -105,7 +105,7 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Boss! Wait up!", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully runs in the direction of Askarios's pursuit.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(This is gonna be a loooooong day.)", "Skully"));
-        var endText = new DialogData("/speed:0.03/Alright, boss. Got a few profiles for ya to choose from. Doesn't matter which one you choose, ya just gotta pick who ya like. I conveniently laid 'em out for ya on this specially made user interface.", "Skully");
+        var endText = new DialogData("/speed:0.03//emote:Smug/Alright, boss. Got a few profiles for ya to choose from. Doesn't matter which one you choose, ya just gotta pick who ya like. I conveniently laid 'em out for ya on this specially made user interface.", "Skully");
 
         endText.Callback = () => LoadCharacterSelection();
 
