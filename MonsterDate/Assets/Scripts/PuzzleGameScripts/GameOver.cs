@@ -11,6 +11,8 @@ public class GameOver : MonoBehaviour
     public UnityEngine.UI.Text loseText;
     public UnityEngine.UI.Text scoreText;
     public UnityEngine.UI.Image[] stars;
+    public UnityEngine.UI.Image passImage;
+    public UnityEngine.UI.Image failImage;
 
 
 
@@ -42,6 +44,8 @@ public class GameOver : MonoBehaviour
     {
         screenParent.SetActive(true);
         winText.enabled = false;
+        failImage.enabled = true;
+        passImage.enabled = false;
         scoreParent.SetActive(false);
 
         Animator animator = GetComponent<Animator>();
@@ -57,6 +61,8 @@ public class GameOver : MonoBehaviour
         screenParent.SetActive(true);
         winText.enabled = true;
         loseText.enabled = false;
+        failImage.enabled = false;
+        passImage.enabled = true;
 
         scoreText.text = score.ToString();
         scoreText.enabled = false;
