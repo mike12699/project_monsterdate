@@ -1010,11 +1010,11 @@ PrefabInstance:
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 304543d8c9f0743429c9fdf87f47bfe7, type: 3}
+      objectReference: {fileID: 8300000, guid: 359e098bdd271014f9f668c982680594, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.data[1]
       value: 
-      objectReference: {fileID: 8300000, guid: 4f18013b7a4ba974fa2a9a202b3a87b3, type: 3}
+      objectReference: {fileID: 8300000, guid: 906567c119749134ea3e6cf9b3b20602, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: ChatSE.Array.data[0]
       value: 
@@ -1262,12 +1262,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.data[0]
       value: 
-      objectReference: {fileID: 8300000, guid: 7796b54b22f7f02439fc159ff0ec2b7c, type: 3}
+      objectReference: {fileID: 8300000, guid: 9afd9b5edff2502499b68252d897e616, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.data[1]
       value: 
@@ -1417,7 +1417,7 @@ AudioSource:
   m_GameObject: {fileID: 1210891421}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6809681016910957870, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
   m_audioClip: {fileID: 8300000, guid: 6a84f4994300f8643996957e42394d89, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.5
@@ -1513,7 +1513,7 @@ AudioSource:
   m_GameObject: {fileID: 1210891421}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6809681016910957870, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
   m_audioClip: {fileID: 8300000, guid: 1ec2e01752c8dbe489deb839a5daf351, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.5
@@ -1903,6 +1903,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: a1d034adc6ec55c49a32bbe80a18d945, type: 3}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 84872be3a22117d479c1ff78cd9c3949, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.size
       value: 6

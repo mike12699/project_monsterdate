@@ -23,7 +23,7 @@ public class MyraDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Casting his gaze down, Askarios beholds a translucent pile of slime, formed into the shape of a young woman. Unfortunately, it appears as if part of her has splattered onto his boot.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AN OOZE! FORFEND THYSELF FROM EATING THROUGH THE LEATHERS OF MY CLOTHING, ELSE I SHALL NEED TO SPEAK TO THE LORD OF THY CREATION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/S-sorry...", "Myra"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/[She sniffs, as if about to cry, then reaches forward to scoop the bits of her body from Askarios's shoes back into her form.]", "Myra"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying//sound:myrasniffwav/[She sniffs, as if about to cry, then reaches forward to scoop the bits of her body from Askarios's shoes back into her form.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Psst... boss, be nice to her. /wait:0.5/I noted that she's easy to scare, and I'm completely certain that you absolutely read that.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/DEAR ME, DO NOT WORRY! CONTINUE YOUR ORDER — I SHALL AWAIT THY COMPLETION.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/U-uhm... /wait:0.5/ok...", "Myra"));
@@ -35,7 +35,7 @@ public class MyraDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/T-that's a lot of words... /wait:0.5/Uhm...", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[She offers a shy wave of an arm stub.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/N-nice to meet you, Askarios.", "Myra"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The employee soon returns with her ice cream, which Myra lodges inside of what could be called her hand.]", "Myra"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:myra_icecreaminhand/[The employee soon returns with her ice cream, which Myra lodges inside of what could be called her hand.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PRAY, SERVANT, PROVIDE ME WITH YOUR FINEST DOUBLE NIGHTBERRY MOONRISE, IF YOU COULD.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[They blink at Askarios in confusion, but soon shrug and walk back to the cooler. They aren't paid enough to really care all that much.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/TELL ME OF THEE, MYRA! WHAT DRAWS THEE TO SUCH A FINE ESTABLISHMENT ON THIS DAY?", "Askarios"));
@@ -51,7 +51,7 @@ public class MyraDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/[She looks like she's about to cry again.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PRAY TELL, WHY ARE YOU SO VERY COY? DOES MY APPEARANCE FRIGHTEN THEE?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/N-no... /wait:0.5/I'm just... /wait:0.5/a nervous person, I g-guess. /wait:0.5/Sorry...", "Myra"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[She sniffs, then lets out a stuttered breath. Globs of ooze begin to run down her face, quickly absorbing back into her body as they reach her chin.]", "Myra"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:myra_sniffwav/[She sniffs, then lets out a stuttered breath. Globs of ooze begin to run down her face, quickly absorbing back into her body as they reach her chin.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DO NOT SUCCUMB TO TEARS, MYRA! TELL ME, HOW ART THINE EXAMS PROCEEDING? I RECALL THE DIFFICULTY OF PLEASING MY SUPERIORS, TO WHICH THEY SOON KNEW MY WRATH, GIVEN THAT THEY QUICKLY BECAME MY SUBJECTS!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/T-they're... /wait:0.5/going ok, I guess... /wait:0.5/I'm just... /wait:0.5/not ready for my last one...", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/WHY IS THAT?", "Askarios"));
@@ -65,7 +65,7 @@ public class MyraDateStart : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Happy/[Myra waves her arms in front of her, dismissing the thought.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/T-that w-won't be necessary, sorry!", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Here you are, sir. Whatever you ordered.", "Narrator"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The employee places an improvised, sundae-like mass upon the counter. It appears to be two scoops of rocky road ice cream with blackberries, fudge drizzle, and toffee precariously lodged upon the surface.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:glass_setdown/[The employee places an improvised, sundae-like mass upon the counter. It appears to be two scoops of rocky road ice cream with blackberries, fudge drizzle, and toffee precariously lodged upon the surface.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/SUCH A REGIONAL VARIATION! I SHALL JUDGE THINE CRAFT IN COMPARISON TO THAT OF SKENTIRA!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[The employee shrugs.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Whatever, sir. Enjoy.", "Narrator"));

@@ -13,12 +13,12 @@ public class EyevanDateStartScript : MonoBehaviour
     {
         var dialogueTexts = new List<DialogData>();
 
-        dialogueTexts.Add(new DialogData("/speed:0.03/SO CALM IS THE ATMOSPHERE HERE, MINION! SUCH AN ARCHIVE SPEAKS THAT I SHALL BE MEETING QUITE THE SCHOLAR!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:eyevan_doorbell/SO CALM IS THE ATMOSPHERE HERE, MINION! SUCH AN ARCHIVE SPEAKS THAT I SHALL BE MEETING QUITE THE SCHOLAR!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, boss, it's... more of a store, but...", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WHY YES, A LIBRARY IS WHERE ONE STORES BOOKS.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/No, boss, not—", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/I must ask you to quiet down a little, sir. The other customers are trying to read.", "Eyevan"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[From what appears to be an integrated café approaches an individual with an eyeball for a head. Judging by how he's wearing a name tag and smells like espresso, it looks like he's an employee.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:eyevan_counterclose/I must ask you to quiet down a little, sir. The other customers are trying to read.", "Eyevan"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:eyevan_woodstepslight/[From what appears to be an integrated café approaches an individual with an eyeball for a head. Judging by how he's wearing a name tag and smells like espresso, it looks like he's an employee.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/AH, A SERVANT OF THE ARCHIVE! PRAY, TELL ME WHERE YOUR HIGHEST OF SCHOLARS ARE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed1/...Or don't. Whatever.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[He sighs, shakes his eye, then shrugs.]", "Eyevan"));
@@ -30,7 +30,7 @@ public class EyevanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Right... /wait:0.5/And who should I put this order in for?", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I AM ASKARIOS! MASTER OF UNDEATH, LICH LORD OF SKENTIRA, AND UNDYING EMPEROR OF ZYX!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/That's nice. Anyway, I'll be right back.", "Eyevan"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Eyevan returns to his spot behind the counter, his shoulders held forward in a slight hunch.]", "Eyevan"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:eyevan_counterclose2/[Eyevan returns to his spot behind the counter, his shoulders held forward in a slight hunch.]", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION, THIS ONE SEEMS IMPRESSED BY MY PRESENCE! A DISCOUNT FOR MERELY ARRIVING? AH, SUCH RECOGNITION!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, I think— Let's just go with that, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/By the way, I hope you know that he's the date.", "Skully"));
@@ -63,7 +63,7 @@ public class EyevanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[If an eye could smirk, Eyevan is doing so.]", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Perfect. Why don't we go over to the counter and have a chat, then, hmm?", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AS YOU WILL IT, SO IT SHALL BE!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The two head off to the café, with Askarios taking a seat on a stool and Eyevan leaning on the counter.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:eyevan_woodstepspairaway/[The two head off to the café, with Askarios taking a seat on a stool and Eyevan leaning on the counter.]", "Narrator"));
         var endText = new DialogData("/speed:0.03//emote:Thumbsup1/(Date... secured, I guess? Yeah, let's go with that.)", "Skully");
 
         endText.Callback = () => LoadEyevanMatch3();

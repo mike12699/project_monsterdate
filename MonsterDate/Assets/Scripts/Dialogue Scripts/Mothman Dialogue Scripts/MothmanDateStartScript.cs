@@ -19,6 +19,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/AND IT IS AN HONOR GAZE UPON MY BARE BONES AS I SLOWLY EMERGE FROM THE WATERS, DRIPPING SENSUALLY FROM EACH AND EVERY CAVITY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, boss, can't say I relate to that feeling.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Don't gotta wear a swimsuit if you're dead, /speed:0.2/maaaan...", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:mothman_cabanaopen/[From behind the curtains of a wooden cabana aproaches a man of moth-like apperance]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Got nothin' to hide down there... Ain't that the point of 'em.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios pauses in thought at the newcomer's observation.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SUPPOSE YOU ARE CORRECT, STRANGER! PERHAPS LOIN SHALL QUIVER AT THE SIGHT OF MY NAKEDNESS, THEN!", "Askarios"));
@@ -53,9 +54,9 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/ELABORATE.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(It ain't that deep, boss. Eh... maybe it is for you.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Greg sighs, then takes another sip of his martini. Afterwards, he walks back towards the cabana, beckoning Askarios to follow.]", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/C'mere, maaan. Take a seat... have a drink. I'll explain my philosophy to you.", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:mothman_cabanaopen_close/C'mere, maaan. Take a seat... have a drink. I'll explain my philosophy to you.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/OF COURSE! MINION, PREPARE NOTES OF OUR DISCUSSION, FOR I WILL BE IN NEED OF THEM LATER.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios heads off to the cabana, where he nearly hits his head on the doorway.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_sandysteps/[Askarios heads off to the cabana, where he nearly hits his head on the doorway.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY, IT SMELLS LIKE GLIMMERROOT IN HERE! THE HERBALISTS OF SKENTIRA USED TO SMOKE SUCH AS MUSCLE RELAXANTS IN MY TIME.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Let me know if you want some, maaan. Might make you understand me better.", "Mothman"));
         var endText = new DialogData("/speed:0.03//emote:Thumbsup1/(First date... secured? Fuck if I know, honestly.)", "Skully");

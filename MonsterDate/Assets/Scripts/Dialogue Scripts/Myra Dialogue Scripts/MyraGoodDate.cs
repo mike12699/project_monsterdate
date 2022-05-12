@@ -40,7 +40,7 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/Yeah...Leeeeeet's get on that, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/(Don't think too hard about what she saw, don't think too hard about what she saw, don't—.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Two weeks later.]", "Narrator"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios's date-seeking app buzzes with a series of notifications.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:myra_notif/[Askarios's date-seeking app buzzes with a series of notifications.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/GAH! MINION, THIS DEVICE IS...VIBRATING! PRAY, WHAT ELEMENTAL FORCE HATH POSSESSED IT?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss, that's... Just open the fuckin' app.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios blinks, then struggles to unlock the phone. The capacitive touch screen doesn't easily react to his bony fingers.]", "Askarios"));
@@ -95,7 +95,7 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[She perks up at the thought, but she is quick to wave her hands in front of her dismissively.]", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/N-no, don't do that! I'm, u-uhm, p-perfectly fine without a gift, honest!", "Myra"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/[She looks as if she's about to cry.]", "Myra"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios reaches forth to pat her head, pulling off globs of her body with each lowering of his hand. Myra is quick to pull away after scooping the slime from his fingers.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:myra_pat/[Askarios reaches forth to pat her head, pulling off globs of her body with each lowering of his hand. Myra is quick to pull away after scooping the slime from his fingers.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/NO TEARS, PLEASE! 'TIS A DAY OF CELEBRATION, THAT YOU WOULD (WITH MY ATTRACTIVE FORM AS YOUR SUBJECT) SUCCEED WITH SUCH PRAISE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ALLOW THYSELF THIS MOMENT OF EXCESS, THAT I MAY COMMEMORATE THE OCCASION WITH THEE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Crying/[Myra quivers again, then wipes her tears away, huffing out a breath of acceptance.]", "Myra"));
@@ -116,7 +116,7 @@ public class MyraGoodDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/THOU ART WISE, MINION! THOU ART WISE...", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/ONWARD, THEN!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios makes his way after Myra, who moves at an incredibly slow pace, almost like a slug.]", "Narrator"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[In his wake, countless people from the crowd let out screams as they slip and slide into one another — the slime trail being the perpetrator.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:slipnslide_falls/[In his wake, countless people from the crowd let out screams as they slip and slide into one another — the slime trail being the perpetrator.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/[Skully sighs.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Onward, woo...", "Skully"));
         var endText = new DialogData("/speed:0.03//emote:Thumbsup1/[He pumps his fist in a lazy, train conductor-like fashion, then hunches his shoulders forward as he slowly follows after the two, each of his steps touched with exhaustion and irritation.]", "Skully");

@@ -49,12 +49,12 @@ public class SkullyGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup2/Alright, all dressed up.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERFECT! THAT OUTFIT IS QUITE DASHING ON THEE, SKULLY! WHERE DIDST THOU PURCHASE IT?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Ya think so? I made it myself.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios laughs, then claps Skully on the shoulder, letting out the sound of bone impacting with bone.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:skully_shoulder/[Askarios laughs, then claps Skully on the shoulder, letting out the sound of bone impacting with bone.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I DID NOT TAKE THEE FOR A TAILOR! PERHAPS THOU SHALL ASSIST IN IMPROVING MINE OWN WARDROBE'S CONTENTS!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/...Sure, yeah. Now, can we get goin'?", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/YES! LET US GO, SKULLY! ONWARD!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(Behold... the ruler of Zyx, everyone! Sigh...)", "Skully"));
-        var endText = new DialogData("/speed:0.03/Yeah, let's get this over with. Right behind ya, Askarios.", "Skully");
+        var endText = new DialogData("/speed:0.03//sound:skully_pairwoodsteps/Yeah, let's get this over with. Right behind ya, Askarios.", "Skully");
 
         endText.Callback = () => GoodDateContinue();
 
@@ -79,10 +79,10 @@ public class SkullyGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/(It is... /wait:0.5/kinda pretty, I'm not gonna lie.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Uh... Yeah, Askarios, it sure is.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Just... /wait:0.5/maybe a little poor in taste.)", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios claps his hands together, echoing the clacking of his bones through the silence of the surrounding area.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_clap/[Askarios claps his hands together, echoing the clacking of his bones through the silence of the surrounding area.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I AM GLAD, SKULLY! PRAY, COME WITH ME TO THE BENCHES, AND WE SHALL ENJOY THE SIGHTS TOGETHER, NO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/...Sure. Yeah, sure, sure.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios makes his way over to a nearby wrought iron bench, where he plants himself down. Skully soon follows, his shoulders held forward in slight awkwardness, and quietly takes a seat.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:skully_dirt-pairfootsteps-away/[Askarios makes his way over to a nearby wrought iron bench, where he plants himself down. Skully soon follows, his shoulders held forward in slight awkwardness, and quietly takes a seat.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I THOUGHT THIS LOCALE WOULD SUIT THEE WELL, SKULLY! I AM QUITE FOND OF LICHYARDS, GIVEN MY CRAFT, AND I THOUGHT TO SHARE SUCH ADORATION WITH MY POTENTIAL PARAMOUR!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/It's... /wait:0.5/nice, boss. Real nice.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(The moon is gorgeous and all, but...)", "Skully"));
@@ -95,7 +95,7 @@ public class SkullyGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Thumbsup1/...Sorry. Don't wanna ruin the mood.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Laugh/[He lets out an awkward chuckle.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION, DO TELL WHAT TROUBLES THEE — I COMMAND IT!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[If Skully could bite his lip, he would. Unfortunately for him, he can't, so he settles for wrapping his fingers on the irons of the bench.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:skully_tapping/[If Skully could bite his lip, he would. Unfortunately for him, he can't, so he settles for wrapping his fingers on the irons of the bench.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/It's pretty and all, boss, but... /wait:0.5/It just gives me bad memories, that's all.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/HOW SO?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, like I said at our dinner date, ya just kinda raised me from the dead without my consent.", "Skully"));
@@ -111,12 +111,12 @@ public class SkullyGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(Clearly)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I COULD BRING THINE PARENTS TO LIFE, IF THOU WOULDST WISH IT... OR I COULD REMOVE THEE FROM MY SERVICE, EVEN IF THOU ART QUITE THE HIGHEST OF BOONS TO MY RULE.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/No. Leave 'em, Askarios.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/[Skully slaps Askarios's hand off of his shoulder and scoots away from him, pulling up his knees in a gesture of self comfort.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad//sound:skully_slapaskarioswav/[Skully slaps Askarios's hand off of his shoulder and scoots away from him, pulling up his knees in a gesture of self comfort.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/I don't want 'em back. They wouldn't recognize me anymore, and I don't want 'em ripped from the Heavens too.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/It's too late to be makin' changes to what happened. I've learned to cope, and I've dealt with it all on my own for decades now.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/Just... leave it alone.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/[Askarios places his hand on his lap in embarassment.]", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Five minutes of silence ensue.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:skully_nightambience/[Five minutes of silence ensue.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Another five minutes follow, broken only by the rustling of leaves in the breeze.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Where it would seem that even more silence would occur, it is finally shattered by Skully beginning to lightly sob.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/Man, fuck.", "Skully"));

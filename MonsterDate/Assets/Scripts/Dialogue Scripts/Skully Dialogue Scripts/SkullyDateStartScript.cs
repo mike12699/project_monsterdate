@@ -71,7 +71,7 @@ public class SkullyDateStartScript : MonoBehaviour
         var dialogueTexts = new List<DialogData>();
 
         dialogueTexts.Add(new DialogData("/speed:0.03/SERVANT! A TABLE FOR MY MINION AND I!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[After a moment of waiting, Askarios and Skully are brought to a neatly set table, soon populated by a basket of complimentary bread and glasses of dark red wine.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:skully_settable/[After a moment of waiting, Askarios and Skully are brought to a neatly set table, soon populated by a basket of complimentary bread and glasses of dark red wine.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Nice place, huh, boss? Looked like some fancy food, wine, that kinda shit.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/IT IS AESTHETICALLY PLEASING, MINION! LET US HOPE THAT ITS QUALITY SATISFIES MY PARTICULAR TASTES OF CUISINE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(Do you... even have taste buds anymore?)", "Skully"));
@@ -111,7 +111,7 @@ public class SkullyDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/WELL, THEN I SUPPOSE THAT YOU SIMPLY TOOK CARE OF YOURSELF. SUCH IS THE SIGN OF INTELLIGENCE AND GRIT!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WOULD THAT MY OWN BONES WERE REINFORCED IN SUCH A MANNER! ONLY THEN WOULD MY RULE HAVE BEEN EVER THE MORE OPPRESSIVE TO MY ENEMIES!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Well, count me flattered, Askarios.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios takes a moment to sip from his glass of wine, though the drink is quick to stain the seat as it falls through his bone cavities.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_sipnspill/[Askarios takes a moment to sip from his glass of wine, though the drink is quick to stain the seat as it falls through his bone cavities.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DO YOU ENJOY SERVING ME, SKULLY?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Skully stares for a moment, then snaps back to attention.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Eh... It's iffy, if I'm being honest. Nice not havin' to live in fear, like I had in my living days, but...", "Skully"));
@@ -123,10 +123,10 @@ public class SkullyDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Proooobably for the best.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[A few minutes later, the waiter returns with the pair's food. For Skully, a heaping plate of fettuccine Alfredo, and for Askarios, a deep shepherd's pie.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/AH, SUCH SMELLS! QUITE DELIGHTFUL!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Not even taking a minute to think, Skully has already dug in.]", "Skully"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:skully_silverware/[Not even taking a minute to think, Skully has already dug in.]", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY, SUCH QUICK DECISION MAKING! A RULER IN THE MAKING ALREADY, I SEE.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/BUT LET US EAT AND DISCUSS AS WE SEE FIT!", "Askarios"));
-        var endText = new DialogData("/speed:0.03/[Slurping up some noodles, Skully nods, then quickly returns his focus to bringing more of the pasta to his mouth.]", "Skully");
+        var endText = new DialogData("/speed:0.03//sound:skully_slurp/[Slurping up some noodles, Skully nods, then quickly returns his focus to bringing more of the pasta to his mouth.]", "Skully");
 
         endText.Callback = () => LoadSkullyMatch3();
 
