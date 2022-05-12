@@ -9,6 +9,8 @@ public class SkullyGoodDateScript : MonoBehaviour
     public DialogManager dialogueManager;
     public GameObject hotel;
     public GameObject lichyard;
+    public AudioSource hotelMusic;
+    public AudioSource lichyardMusic;
 
     void Start()
     {
@@ -20,6 +22,8 @@ public class SkullyGoodDateScript : MonoBehaviour
     {
         hotel.SetActive(true);
         lichyard.SetActive(false);
+        hotelMusic.Play();
+        lichyardMusic.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -64,6 +68,8 @@ public class SkullyGoodDateScript : MonoBehaviour
     {
         hotel.SetActive(false);
         lichyard.SetActive(true);
+        hotelMusic.Stop();
+        lichyardMusic.Play();
 
         var dialogueTexts = new List<DialogData>();
 

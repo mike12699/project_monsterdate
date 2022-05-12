@@ -9,6 +9,8 @@ public class SkullyDateStartScript : MonoBehaviour
     public DialogManager dialogueManager;
     public GameObject market;
     public GameObject dinner;
+    public AudioSource marketAudio;
+    public AudioSource dinnerAudio;
 
     void Start()
     {
@@ -20,6 +22,8 @@ public class SkullyDateStartScript : MonoBehaviour
     {
         market.SetActive(true);
         dinner.SetActive(false);
+        marketAudio.Play();
+        dinnerAudio.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -61,6 +65,8 @@ public class SkullyDateStartScript : MonoBehaviour
     {
         market.SetActive(false);
         dinner.SetActive(true);
+        marketAudio.Stop();
+        dinnerAudio.Play();
 
         var dialogueTexts = new List<DialogData>();
 

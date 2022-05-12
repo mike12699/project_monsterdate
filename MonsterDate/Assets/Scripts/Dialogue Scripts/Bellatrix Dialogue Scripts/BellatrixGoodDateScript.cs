@@ -9,6 +9,8 @@ public class BellatrixGoodDateScript : MonoBehaviour
     public DialogManager dialogueManager;
     public GameObject hotel;
     public GameObject icecream;
+    public AudioSource hotelMusic;
+    public AudioSource icecreamMusic;
 
     void Start()
     {
@@ -20,6 +22,8 @@ public class BellatrixGoodDateScript : MonoBehaviour
     {
         hotel.SetActive(true);
         icecream.SetActive(false);
+        hotelMusic.Play();
+        icecreamMusic.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -48,6 +52,8 @@ public class BellatrixGoodDateScript : MonoBehaviour
     {
         hotel.SetActive(false);
         icecream.SetActive(true);
+        hotelMusic.Stop();
+        icecreamMusic.Play();
 
         var dialogueTexts = new List<DialogData>();
 

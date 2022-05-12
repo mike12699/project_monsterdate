@@ -711,6 +711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PAUSEMENU
       objectReference: {fileID: 0}
+    - target: {fileID: 7539721044616925612, guid: 72d323cf5f2b2554a9894b1961447593, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7539721044616925614, guid: 72d323cf5f2b2554a9894b1961447593, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
@@ -1783,7 +1787,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d4b9342eaf819ca47b8674b301f438fe, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.25
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0

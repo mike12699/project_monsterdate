@@ -823,6 +823,7 @@ MonoBehaviour:
   eyevanPanel: {fileID: 455104182}
   myraPanel: {fileID: 1239789876}
   skullyPanel: {fileID: 426192306}
+  skullyButton: {fileID: 1531326606}
 --- !u!4 &290522488
 Transform:
   m_ObjectHideFlags: 0

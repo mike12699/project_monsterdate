@@ -9,6 +9,8 @@ public class EyevanBadDateScript : MonoBehaviour
     public DialogManager dialogueManager;
     public GameObject hotel;
     public GameObject dinner;
+    public AudioSource hotelMusic;
+    public AudioSource dinnerMusic;
 
     void Start()
     {
@@ -20,6 +22,8 @@ public class EyevanBadDateScript : MonoBehaviour
     {
         hotel.SetActive(true);
         dinner.SetActive(false);
+        hotelMusic.Play();
+        dinnerMusic.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -73,6 +77,8 @@ public class EyevanBadDateScript : MonoBehaviour
     {
         hotel.SetActive(false);
         dinner.SetActive(true);
+        hotelMusic.Stop();
+        dinnerMusic.Play();
 
         var dialogueTexts = new List<DialogData>();
 

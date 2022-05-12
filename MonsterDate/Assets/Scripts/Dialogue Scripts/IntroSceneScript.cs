@@ -10,6 +10,8 @@ public class IntroSceneScript : MonoBehaviour
     public GameObject citadel;
     public GameObject market;
     public GameObject canvas;
+    public AudioSource citadelMusic;
+    public AudioSource marketMusic;
 
     void Start()
     {
@@ -22,6 +24,8 @@ public class IntroSceneScript : MonoBehaviour
         canvas.SetActive(true);
         citadel.SetActive(true);
         market.SetActive(false);
+        citadelMusic.Play();
+        marketMusic.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -70,6 +74,8 @@ public class IntroSceneScript : MonoBehaviour
     public void IntroContinue()
     {
         canvas.SetActive(false);
+        citadelMusic.Stop();
+        marketMusic.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -89,6 +95,8 @@ public class IntroSceneScript : MonoBehaviour
         canvas.SetActive(true);
         citadel.SetActive(false);
         market.SetActive(true);
+        citadelMusic.Stop();
+        marketMusic.Play();
 
         var dialogueTexts = new List<DialogData>();
 

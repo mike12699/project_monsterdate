@@ -9,6 +9,8 @@ public class MyraBadDate : MonoBehaviour
     public DialogManager dialogueManager;
     public GameObject hotel;
     public GameObject market;
+    public AudioSource hotelMusic;
+    public AudioSource marketMusic;
 
     void Start()
     {
@@ -20,6 +22,8 @@ public class MyraBadDate : MonoBehaviour
     {
         hotel.SetActive(true);
         market.SetActive(false);
+        hotelMusic.Play();
+        marketMusic.Stop();
 
         var dialogueTexts = new List<DialogData>();
 
@@ -64,6 +68,8 @@ public class MyraBadDate : MonoBehaviour
     {
         hotel.SetActive(false);
         market.SetActive(true);
+        hotelMusic.Stop();
+        marketMusic.Play();
 
         var dialogueTexts = new List<DialogData>();
 
