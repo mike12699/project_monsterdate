@@ -38,7 +38,7 @@ public class EyevanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/I SHALT RETREAT TO MINE THOUGHTS, THEN! A SCHOLAR'S KNOWLEDGE IS ONLY AS STRONG AS THE CURIOSITY THAT SUMMONED IT FORTH!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/(I pity Eyevan in this scenario.)", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[A week and a half later, at dusk.]", "Narrator"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//sound:buzz1/[Askarios's phone buzzes. Somehow, he figured out how to raise the power level of the vibration, and the bones near his pocket rattle in tandem with the device's notification.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_phonebuzz/[Askarios's phone buzzes. Somehow, he figured out how to raise the power level of the vibration, and the bones near his pocket rattle in tandem with the device's notification.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/GAH! MINION, WHAT MANNER OF SORCERY CAUSES MY LOINS TO QUAKE SO?!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Uh... /wait:0.5/You should probably get that checked out, boss.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WHERE ART THOU, DEMONIC FORCE?", "Askarios"));
@@ -93,7 +93,7 @@ public class EyevanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/AH! THERE THOU ART!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Evening.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Eyevan offers Askarios a lazy wave of his wrist, then immediately goes back to his appetizer and alcohol.]", "Eyevan"));
-        dialogueTexts.Add(new DialogData("/speed:0.03//sounD:askarios_sit2/[Askarios takes a seat.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_sit3/[Askarios takes a seat.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SEE THOU ART INDULGING IN DINNER PRIOR TO MY ARRIVAL! MINE APOLOGIES FOR THE DELAY.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed1/[Eyevan shrugs.]", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Whatever. Honestly, as long as you ended up making it, I don't really care.", "Eyevan"));
@@ -136,7 +136,7 @@ public class EyevanBadDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Closed/Plus, having a little army of skeletons to do things for me would be pretty nice...", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/AH, OF COURSE! I SHALT INDULGE THEE IN THE BASICS WHILST WE FEAST, IF THOU WOULDST WISH!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Sure! You do whatever it takes to make our relationship even more interesting, hmm?", "Eyevan"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[At this point, the waitress returns with Askarios's steak, cooked dark, and a multitude of platters for Eyevan, with each containing a completely different dish.]", "Narrator"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:eyevan_multiplates/[At this point, the waitress returns with Askarios's steak, cooked dark, and a multitude of platters for Eyevan, with each containing a completely different dish.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DELIGHTFUL! THEN LET US BEGIN!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Yeah, let's! I'll think about writing my two weeks', too...", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(Ya know, I'm not even gonna stop this from happening. If the boss wants to get used, he can get used. It ain't my business at this rate.)", "Skully"));

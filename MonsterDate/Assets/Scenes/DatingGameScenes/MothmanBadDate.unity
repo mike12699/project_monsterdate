@@ -691,6 +691,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 70b7ad520deef564f8760aa8c6746d25, type: 3}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: ChatSE.Array.data[0]
       value: 
       objectReference: {fileID: 8300000, guid: d892de2cb9eb07941bef7f5f4245c1b3, type: 3}
@@ -1669,6 +1677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogAsset
       objectReference: {fileID: 0}
+    - target: {fileID: 4094011683184477040, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7639693055917186080, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
     - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Pivot.x
       value: 0

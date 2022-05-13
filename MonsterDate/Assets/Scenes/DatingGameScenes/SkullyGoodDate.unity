@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogAsset
       objectReference: {fileID: 0}
+    - target: {fileID: 4094011683184477040, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7639693055917186080, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
     - target: {fileID: 4094011683184477041, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: Delay
       value: 0.05

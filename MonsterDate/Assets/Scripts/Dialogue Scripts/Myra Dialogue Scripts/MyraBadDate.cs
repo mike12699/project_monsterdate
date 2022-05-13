@@ -41,7 +41,7 @@ public class MyraBadDate : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:myra_notif/[Askarios's date-seeking app buzzes with a series of notifications.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Shocked/GAH! MINION, THIS DEVICE IS...VIBRATING! PRAY, WHAT ELEMENTAL FORCE HATH POSSESSED IT?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss, that's... Just open the fuckin' app.", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios blinks, then struggles to unlock the phone. The capacitive touch screen doesn't easily react to his bony fingers.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_clacking/[Askarios blinks, then struggles to unlock the phone. The capacitive touch screen doesn't easily react to his bony fingers.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/DAMNED THING!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[After a few minutes of poorly-made attempts, some infused with minor cantrips and spells of ridiculous power, he eventually manages to get the app open.]", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Upon the screen, the following text is displayed:]", "Narrator"));

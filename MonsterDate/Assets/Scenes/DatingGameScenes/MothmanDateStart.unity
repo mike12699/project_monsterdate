@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: CallSE.Array.data[0]
@@ -234,6 +234,10 @@ PrefabInstance:
       propertyPath: CallSE.Array.data[1]
       value: 
       objectReference: {fileID: 8300000, guid: e86fcc1b936767545b42ee5c8b37f761, type: 3}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: a6a831bbbfed94e45aab513b7a8be7b1, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.size
       value: 4
@@ -501,6 +505,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009698, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
+      propertyPath: CallSE.Array.size
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
@@ -1583,6 +1591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogAsset
       objectReference: {fileID: 0}
+    - target: {fileID: 4094011683184477040, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 7639693055917186080, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
     - target: {fileID: 4094011683184477044, guid: d536fa71dd00cf349a228e41212ace48, type: 3}
       propertyPath: m_Pivot.x
       value: 0

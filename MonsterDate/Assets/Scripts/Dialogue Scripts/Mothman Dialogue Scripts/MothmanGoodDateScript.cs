@@ -74,7 +74,7 @@ public class MothmanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[He holds out the joint to Askarios, offering him to join in.]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Come on, maaan. Let's talk about our plans... and whatever you wanted to discuss, too.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/OF COURSE, GREGORY! I SIMPLY WISHED TO ASK THEE HOW MY RULE MAY IMPROVE THROUGH ACTS THAT THOU WOULDST TAKE IN MINE POSITION!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios takes the offer and huffs in an even longer hit than Greg had previously done. The smoke pours from the gaps in his bones and through his nasal cavity, making him look similar to a fog machine.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_superhit/[Askarios takes the offer and huffs in an even longer hit than Greg had previously done. The smoke pours from the gaps in his bones and through his nasal cavity, making him look similar to a fog machine.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/HELLS ABOVE, THAT IS STRONG... THOUGH NOT UNWELCOME, OF COURSE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[If he had the capacity to choke and gag, he would be coughing up a storm. Luckily, he doesn't have lungs, so that isn't the case.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Heh, yeah, maaan... I get it as pure as I can.", "Mothman"));

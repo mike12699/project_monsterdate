@@ -39,7 +39,7 @@ public class EyevanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[Within a few minutes, Eyevan returns, holding a plastic cup with a purple straw. On the side, written in black marker, is 'Eskairyos.' The drink is visually a deep red, but nothing really screams 'wine.']", "Narrator"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Here you are, sir.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY THANKS, FRIEND!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios puts the straw in his mouth and takes a long sip of the cup's contents. A slight dribbling noise soon follows, and splatters of reddish-purple can be seen on the hardwood floor beneath him.]", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_grapejuice/[Askarios puts the straw in his mouth and takes a long sip of the cup's contents. A slight dribbling noise soon follows, and splatters of reddish-purple can be seen on the hardwood floor beneath him.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/DELIGHTFUL! WHAT VINTAGE IS THIS, MIGHT I ASK?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Velch's 100% Concord Grapes.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03/WONDERFUL! I SHALL SEND MY MINIONS TO SEEK MANY BARRELS OF SUCH A FINE DRINK!", "Askarios"));

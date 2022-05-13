@@ -49,4 +49,9 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("BugGirlPuzzle");
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

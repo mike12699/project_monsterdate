@@ -27,7 +27,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Whatever you say, maaan...", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PRAY, O INSIGHTFUL STRANGER, HAVE YOU SEEN A PARAMOUR IN THIS LOCALE?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Paramour? Like, someone single? Maaan, I ain't checkin' for other people's vibes and shit...", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[He sticks his proboscis into his martini, drawing out a long sip.]", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//sound:mothman_martini/[He sticks his proboscis into his martini, drawing out a long sip.]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'Side from me, I can't say I know.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss... he WAS the profile.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS YOU ARE MY ELIGIBLE BACHELOR, THEN! PRAY, TELL ME THY NAME, O WISE STRANGER.", "Askarios"));
