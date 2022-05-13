@@ -310,7 +310,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5159352776852385103, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
   m_audioClip: {fileID: 8300000, guid: d7fd60b5713ae8f4281b7f65d323524b, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1008,7 +1008,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5159352776852385103, guid: 344f202db33a02647a176b61c4c66af2, type: 2}
   m_audioClip: {fileID: 8300000, guid: 4400fdb6596a1134d8f08798b2bac10c, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1603,7 +1603,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 4536545849961186314, guid: d82ebfc389d60d04c9a7b7157eaab875, type: 2}
   m_audioClip: {fileID: 8300000, guid: 3cc9ff1f871ee7247aa38488e9feaaef, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1706,7 +1706,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1733808597
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2182,7 +2182,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 46
+    m_FontSize: 44
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -2196,6 +2196,7 @@ MonoBehaviour:
   m_Text: 'Nick Novello
 
 
+
     Denice Carrera
 
     Jude Fry
@@ -2203,8 +2204,11 @@ MonoBehaviour:
     Alexis Mayberry
 
 
+
     Santana
     Silcott
+
+
 
     Zoe Maddix
 
@@ -2280,7 +2284,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 05184ed49f1df9a44b4b6e78c41264f7, type: 3}
-    m_FontSize: 46
+    m_FontSize: 44
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 4
@@ -2291,7 +2295,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Game Design/Writer
+  m_Text: 'Game Design/Writing
+
 
 
     Art Assets
@@ -2299,7 +2304,10 @@ MonoBehaviour:
 
 
 
+
     Music
+
+
 
     Sound Design
 

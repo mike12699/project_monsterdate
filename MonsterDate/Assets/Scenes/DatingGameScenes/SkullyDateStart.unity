@@ -1513,11 +1513,11 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: 1ca8bd9799d9f5b49991c5d25de26a74, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.size
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.size
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.data[0]
@@ -1526,42 +1526,42 @@ PrefabInstance:
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 90b250d7bdbe6de4ab8b2f3490369107, type: 3}
+      objectReference: {fileID: 21300000, guid: c0111c3cd70137d4a91562772eda7af7, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 2ca23d6c5849eab4a90f598386658490, type: 3}
+      objectReference: {fileID: 21300000, guid: ed977e97182e02a409605b5aa8ceaab8, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.data[3]
       value: 
-      objectReference: {fileID: 21300000, guid: cf3965802f2f30d40a97d2ec32e01c81, type: 3}
+      objectReference: {fileID: 21300000, guid: 32292faac5bdc0e43b6170d34ad15d76, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.data[4]
       value: 
-      objectReference: {fileID: 21300000, guid: 570f7461d0e6b9e44be08b9ba7684294, type: 3}
+      objectReference: {fileID: 21300000, guid: bb1fca7f65b21364b80c088f7b109984, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._sprite.Array.data[5]
       value: 
-      objectReference: {fileID: 21300000, guid: daa4cf60424019c41a6dd80c7a24cf43, type: 3}
+      objectReference: {fileID: 21300000, guid: 28b6d1fd46afcdc408ef1ea5da4b68c5, type: 3}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[1]
-      value: Angry
+      value: Laugh
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[2]
-      value: Sad
+      value: Annoyed
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[3]
-      value: Blush
+      value: Sad
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[4]
-      value: Disappointed
+      value: Smug
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009699, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: Emotion._emotion.Array.data[5]
-      value: Neutral
+      value: Thumbsup1
       objectReference: {fileID: 0}
     - target: {fileID: 8206358605457009709, guid: b1e781a67c6f97f4d9cfb50a61f30655, type: 3}
       propertyPath: m_Name

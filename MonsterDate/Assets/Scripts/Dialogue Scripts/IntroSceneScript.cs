@@ -38,7 +38,7 @@ public class IntroSceneScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/CENTURIES HAVE SINCE PASSED, AND I, ASKARIOS THE TYRANT, CONTINUE TO RULE ZYX ABSOLUTELY, MY RULE HAVING NEVER ONCE WANTED.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SUBJUGATED THOSE THAT REBELLED AGAINST ZYX, CULLING ANY WHO DARED ATTEMPT TO DESTROY THE EMPIRE FROM WITHIN.THE DEAD OBEY MY EVERY COMMAND, ENSLAVED TO MY WILL.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/THE LIVING HOLD SUCH GREAT FEAR OF ME THAT THEY COWER AT THE MERE MENTION OF MY NAME. MY CONQUEST HAS STRETCHED TO THE VERY CORNERS OF KAZ, AND SOON, I SHALL CLAIM THE REST OF THE WORLD.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/THERE IS BUT ONE ISSUE — I AM LONELY.", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Blush/THERE IS BUT ONE ISSUE — I AM LONELY.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY CONQUEST HAS GROWN BORING, AND I FIND MYSELF IN NEED OF SOMEONE TO SHARE IN MY SADISM WITH. BUT NONE CAN MOVE PAST THEIR FEARS OF ME ENOUGH TO EVEN ATTEMPT COURTSHIP!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/...OR THEY ARE A MINDLESS THRALL, BUT WE ALL HAVE STANDARDS.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MINION! TELL THEM OF YOUR PLAN. YOU KNOW IT BETTER THAN I.", "Askarios"));

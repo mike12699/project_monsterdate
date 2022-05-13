@@ -67,7 +67,7 @@ public class MothmanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Heh... been at it all my life, maaan, what can I say?", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:mothman_cighit/[He smirks, then takes another hit.]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/So... what do you wanna do, 'Skarios? Thought we hit it off pretty nice, huh? Might just wanna... keep it goin', then.", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/HMM... PERCHANCE I COULDST ATTEND THIS PLEASANTRY POINT WITH THEE ? OUR REIGN OF TERROR SHOULDST BE LEGENDARY!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/HMM... PERCHANCE I COULDST ATTEND THIS PLEASANTRY POINT WITH THEE? OUR REIGN OF TERROR SHOULDST BE LEGENDARY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Honestly, maaan... I could see it. You, me, flyin' around and shit, bringing my omens and your realizations of them... Kinda perfect.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY, THAT SOUNDS UTTERLY DELIGHTFUL! WITH THE CRAFTING OF PROPER RUNIC SIGILS, I COULDST BRINGEST THEE TO ZYX AS WELL, THAT THOU MAYEST BRING THY TERROR TO IMPERIAL LANDS!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Shiiit, maaan, I'll smoke to that.", "Mothman"));

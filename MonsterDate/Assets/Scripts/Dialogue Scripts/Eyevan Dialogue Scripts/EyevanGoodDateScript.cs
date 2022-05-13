@@ -60,7 +60,7 @@ public class EyevanGoodDateScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Gotcha. Well, I'll see you there.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed1/Don't take too long. I ain't got the money to pay for it myself.", "Eyevan"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:endcall/[The phonecall ends with a beep.]", "Narrator"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/MINION! RETRIEVE MINE COINPURSE — I POSSESS A NEWFOUND NEED FOR IT!", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/MINION! RETRIEVE MINE COINPURSE, I POSSESS A NEWFOUND NEED FOR IT!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/(You're really just lettin' him walk all over you, huh? Well, I ain't gonna stop 'im.)", "Skully"));
         var endText = new DialogData("/speed:0.03//emote:Thumbsup2/Right away, boss.", "Skully");
 
