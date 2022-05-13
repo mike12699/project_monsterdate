@@ -23,11 +23,11 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/Got nothin' to hide down there... Ain't that the point of 'em.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/[Askarios pauses in thought at the newcomer's observation.]", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I SUPPOSE YOU ARE CORRECT, STRANGER! PERHAPS LOIN SHALL QUIVER AT THE SIGHT OF MY NAKEDNESS, THEN!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[The man shrugs]", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Closed/[The man shrugs]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Whatever you say, maaan...", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PRAY, O INSIGHTFUL STRANGER, HAVE YOU SEEN A PARAMOUR IN THIS LOCALE?", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Paramour? Like, someone single? Maaan, I ain't checkin' for other people's vibes and shit...", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[He sticks his proboscis into his martini, drawing out a long sip.]", "Mothamn"));
+        dialogueTexts.Add(new DialogData("/speed:0.03/[He sticks his proboscis into his martini, drawing out a long sip.]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/'Side from me, I can't say I know.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03//emote:Annoyed/Boss... he WAS the profile.", "Skully"));
         dialogueTexts.Add(new DialogData("/speed:0.03/PERHAPS YOU ARE MY ELIGIBLE BACHELOR, THEN! PRAY, TELL ME THY NAME, O WISE STRANGER.", "Askarios"));
@@ -35,7 +35,7 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/[He shrugs]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Either's fine... Whatever you think fits the vibe.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/GREGORY! YOU STAND IN THE PRESENCE OF ASKARIOS, LICH LORD OF SKENTIRA, TYRANT OF DEATH, AND EMPEROR OF ZYX.", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/Lotta titles there, maaan. Too much work for me.", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Sad/Lotta titles there, maaan. Too much work for me.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Y' here on pleasure or somethin'?", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/I AM COME TO THIS CITY IN SEARCH OF A PARAMOUR -- A LOVER TO SHARE IN MY RULE!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Huh... I'm just here on vacation, maaan. Got tired of being an omen of disaster of for a minute.", "Mothman"));
@@ -50,10 +50,10 @@ public class MothmanDateStartScript : MonoBehaviour
         dialogueTexts.Add(new DialogData("/speed:0.03/SPEAK CLEARLY, GREGORY!", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/Like, you gotta learn to go with what happens... Enjoy what comes in life, you know ? Think you're too caught up on makin' sure everything's perfect for you, maaan.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/MY RULE DID NOT COME FROM WEAKNESS AND COMPLACENCY! I HAVE RULED ZYX FOR CENTURIES AND LIVED FOR MANY MORE THROUGH PERFECTION OF MY CRAFT!", "Askarios"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/And maybe you just gotta let that perfection become... imperfection, 'Skarios.", "Mothman"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/ELABORATE.", "Askarios"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Closed/And maybe you just gotta let that perfection become... imperfection, 'Skarios.", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Confused/ELABORATE.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03/(It ain't that deep, boss. Eh... maybe it is for you.)", "Skully"));
-        dialogueTexts.Add(new DialogData("/speed:0.03/[Greg sighs, then takes another sip of his martini. Afterwards, he walks back towards the cabana, beckoning Askarios to follow.]", "Mothman"));
+        dialogueTexts.Add(new DialogData("/speed:0.03//emote:Closed/[Greg sighs, then takes another sip of his martini. Afterwards, he walks back towards the cabana, beckoning Askarios to follow.]", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:mothman_cabanaopen_close/C'mere, maaan. Take a seat... have a drink. I'll explain my philosophy to you.", "Mothman"));
         dialogueTexts.Add(new DialogData("/speed:0.03/OF COURSE! MINION, PREPARE NOTES OF OUR DISCUSSION, FOR I WILL BE IN NEED OF THEM LATER.", "Askarios"));
         dialogueTexts.Add(new DialogData("/speed:0.03//sound:askarios_sandysteps/[Askarios heads off to the cabana, where he nearly hits his head on the doorway.]", "Askarios"));

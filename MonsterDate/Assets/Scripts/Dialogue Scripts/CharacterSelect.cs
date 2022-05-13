@@ -10,6 +10,7 @@ public class CharacterSelect : MonoBehaviour
     public GameObject myraPanel;
     public GameObject skullyPanel;
     public GameObject skullyButton;
+    public AudioSource backbuttonSound;
     
 
     public void OpenMothman()
@@ -44,25 +45,30 @@ public class CharacterSelect : MonoBehaviour
     {
         mothmanPanel.SetActive(false);
         skullyButton.SetActive(true);
+        backbuttonSound.Play();
     }
     public void CloseBellatrix()
     {
         bellatrixPanel.SetActive(false);
         skullyButton.SetActive(true);
+        backbuttonSound.Play();
     }
     public void CloseEyevan()
     {
         eyevanPanel.SetActive(false);
         skullyButton.SetActive(true);
+        backbuttonSound.Play();
     }
     public void CloseMyra()
     {
         myraPanel.SetActive(false);
         skullyButton.SetActive(true);
+        backbuttonSound.Play();
     }
     public void CloseSkully()
     {
         skullyPanel.SetActive(false);
         skullyButton.SetActive(true);
+        backbuttonSound.Play();
     }
 }
